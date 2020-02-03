@@ -7,8 +7,6 @@ var urlsToCache = [
   '/event-tuesday.html',
   '/event-wednesday.html',
   '/agency-directory.html',
-  '/images/flower-512.png',
-  '/images/flower-192.png',
 ];
 
 self.addEventListener('install', event => {
