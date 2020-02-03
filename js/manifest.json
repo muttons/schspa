@@ -3,12 +3,12 @@
   "name": "schspa",
   "icons": [
     {
-      "src": "/schspa/images/hero_1.jpg",
+      "src": "/images/hero_1.jpg",
       "type": "image/png",
       "sizes": "512x512"
     } ,
     {
-      "src": "/schspa/images/hero_2.jpg",
+      "src": "/images/hero_2.jpg",
       "type": "image/jpg",
       "sizes": "192x192"
     }
