@@ -1,10 +1,9 @@
-var CACHE_NAME = 'v1.1';
+var CACHE_NAME = 'v1.2';
 var urlsToCache = [
-  '/schspa/',
-  '/schspa/index.html',
-  '/schspa/index.js',
-  '/schspa/images/flower-512.png',
-  '/schspa/images/flower-192.png',
+  'index.html',
+  'index.js',
+  'images/flower-512.png',
+  'images/flower-192.png',
 ];
 
 self.addEventListener('install', event => {
