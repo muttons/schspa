@@ -1,5 +1,5 @@
 var CACHE_NAME = 'v1.4';
-var urlsToCache =
+var urlsToCache = [
   '/schspa/'
   '/schspa/index.html',
   '/schspa/index.js',
