@@ -1,6 +1,6 @@
 var CACHE_NAME = 'v1.2';
 var urlsToCache = [
-  'index.html',
+  '/schspa/index.html',
   'index.js',
   'images/flower-512.png',
   'images/flower-192.png',
