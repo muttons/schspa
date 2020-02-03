@@ -1,14 +1,14 @@
 var CACHE_NAME = 'v1';
 var urlsToCache = [
   '/schspa/',
-  '/schspa/index.html',
-  '/schspa/js/index.js',
-  '/schspa/css/style.css',
-  '/schspa/agency_directory.html',
-  '/schspa/event-calendar.html',
-  '/schspa/event-monday.html',
-  '/schspa/event-tuesday.html',
-  '/schspa/event-wednesday.html',
+  'index.html',
+  'js/index.js',
+  'css/style.css',
+  'agency_directory.html',
+  'event-calendar.html',
+  'event-monday.html',
+  'event-tuesday.html',
+  'event-wednesday.html',
 ];
 
 self.addEventListener('install', event => {

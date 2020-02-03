@@ -3,7 +3,7 @@
 
 if('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
-    navigator.serviceWorker.register('/schspa/js/sw.js').then( registration => {
+    navigator.serviceWorker.register('js/sw.js').then( registration => {
       console.log('Service Worker Registered');
     }, err => {
       console.log('ServiceWorker registration failed, ${err}');
