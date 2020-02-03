@@ -3,7 +3,7 @@
 
 if('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
-    navigator.serviceWorker.register('/schspa/sw.js').then( registration => {
+    navigator.serviceWorker.register('sw.js').then( registration => {
       console.log('Service Worker Registered');
     }, err => {
       console.log('ServiceWorker registration failed, ${err}');
@@ -52,18 +52,3 @@ function myFunction() {
     x.style.display = "block";
   }
 }
-
-// enables placeholder text for google cse search bar
-(function() {
-  var cx = '008511990827613828420:oyojv3gjygu';
-  var gcse = document.createElement('script');
-  gcse.type = 'text/javascript';
-  gcse.async = true;
-  gcse.src = 'https://cse.google.com/cse.js?cx=008511990827613828420:oyojv3gjygu'+ cx;
-  var s = document.getElementsByTagName('script')[0];
-  s.parentNode.insertBefore(gcse, s);
-})();
-
-window.onload = function(){
-document.getElementById('gsc-i-id1').placeholder = 'SEARCH';
-};
