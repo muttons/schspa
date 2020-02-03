@@ -1,9 +1,9 @@
-var CACHE_NAME = 'v1';
+var CACHE_NAME = 'v3';
 var urlsToCache = [
   './index.html',
   './js/index.js',
   './css/style.css',
-  './agency_directory.html',
+  './agency-directory.html',
   './event-calendar.html',
   './event-monday.html',
   './event-tuesday.html',

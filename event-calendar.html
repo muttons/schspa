@@ -19,102 +19,111 @@
     <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
     <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
-    <script src="js/index.js" defer></script>
-    <link rel="manifest" href="js/manifest.json">
+
     <!-- MAIN CSS -->
     <link rel="stylesheet" href="css/style.css">
 
   </head>
+<style>
 
-  <style>
+.btn-primary {
 
-  .btn-primary {
-
-    margin-top: 20px;
-    border: none;
-    background-color: #13191F;
+  margin-top: 20px;
+  border: none;
+  background-color: #13191F;
+  color: #fff;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
     color: #fff;
-  }
-  .btn-primary:hover, .btn-primary:focus, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
-      color: #fff;
-      background-color: #292929;
+    background-color: #292929;
 
-  }
-  .btn-primary:active:focus {
-     background-color: #000!important;
-   }
+}
+.btn-primary:active:focus {
+   background-color: #000!important;
+ }
 h1 {
-  font-family: 'arial', sans-serif;
-  font-size: 40px;
+font-family: 'arial', sans-serif;
+font-size: 40px;
 }
 h2 {
-  padding-top: 10px;
+padding-top: 10px;
 }
 
 .card {
-  margin-top: 40px;
-  padding-bottom: 20px;
+margin-top: 40px;
+padding-bottom: 20px;
 }
 
 .title {
-  font-size: 25px;
+font-size: 25px;
 }
 a {
-  color: #26536B!important;
+color: #26536B!important;
 }
 
 .bg-primary {
-  background-color: #26536B!important;
+background-color: #26536B!important;
 }
 
 .btn-link.collapsed {
-  color: #fff!important;
-  text-decoration: none!important;
+color: #fff!important;
+text-decoration: none!important;
 }
 .btn-link {
-  color: #fff!important;
-  text-decoration: none!important;
+color: #fff!important;
+text-decoration: none!important;
 }
 
 .card-header {
-  background-color: #13191F;
+background-color: #13191F;
 
 }
 
 .ch2 {
-  background-color: #26536B;
+background-color: #26536B;
 
 }
 
 h5 {
-  font-family: 'arial', sans-serif;
-  font-size: 20px;
-  color: #fff;
+font-family: 'arial', sans-serif;
+font-size: 20px;
+color: #fff;
 }
 
 h6 {
-  font-family: 'arial', sans-serif;
-  font-size: 25px;
-  color: #292929;
-  padding-top: 20px;
+font-family: 'arial', sans-serif;
+font-size: 25px;
+color: #292929;
+padding-top: 20px;
 }
 
 h7 {
-  font-family: 'arial', sans-serif;
-  font-size: 15px;
-  color: #292929;
-  padding-top: 20px;
+font-family: 'arial', sans-serif;
+font-size: 15px;
+color: #292929;
+padding-top: 20px;
 
 }
 .bg-primary {
 background-color: #C1D6D8!important;
 }
-
-.add-button {
-  z-index: 1;
+[data-toggle="collapse"]:after {
+    display: inline-block;
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 25px;
+    font-weight: bold;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\f107";
+    transform: rotate(-180deg) ;
+    transition: all linear 0.25s;
+  }
+[data-toggle="collapse"].collapsed:after {
+  transform: rotate(0deg) ;
 }
-  </style>
-
+</style>
 
 
 
@@ -140,11 +149,10 @@ background-color: #C1D6D8!important;
       <header class="site-navbar site-navbar-target bg-white" role="banner">
 
         <div class="container">
-
           <div class="row align-items-center position-relative">
 
 
-            <div class="col-lg-8">
+            <div class="col-lg-7">
               <div class="site-logo">
                 <a href="index.html">SCHSPA</a>
               </div>
@@ -152,7 +160,7 @@ background-color: #C1D6D8!important;
 
               <div class="ml-auto toggle-button d-inline-block d-lg-none"><a href="#" class="site-menu-toggle py-5 js-menu-toggle text-white"><span class="icon-menu h3 text-primary"></span></a></div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-5">
               <nav class="site-navigation text-left mr-auto " role="navigation">
                 <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
                   <li><a href="event_calendar.html">Event Calendar</a></h3></li>
@@ -170,119 +178,45 @@ background-color: #C1D6D8!important;
 
 
 
-    <div class="owl-carousel-wrapper">
-      <div class="box-92819 shadow-lg">
-          <div>
-            <h2 class=" mb-3 text-black">South Carolina Human Services Provider Association</h2>
-            <p>consists of a network of providers who support individuals with intellectual, head and spinal cord injuries and autism throughout South Carolina.</p>
-
-              <button class="add-button card btn btn-primary">Add to home screen</button>
-    
-          </div>
 
 
 
 
-      </div>
 
-
-
-      <div class="owl-carousel owl-1 ">
-        <div class="ftco-cover-1" style="background-image: url('images/bg1.jpg');"></div>
-        <div class="ftco-cover-1" style="background-image: url('images/bg2.jpg');"></div>
-        <div class="ftco-cover-1" style="background-image: url('images/bg3.jpg');"></div>
-
-      </div>
-    </div>
-
-    <div class="site-section">
+    <div class="site-section bg-primary text-center">
       <div class="container">
         <div class="row mb-5 align-items-center">
-          <div class="col-md-7">
-
-          </div>
-          <div class="col-md-5 text-right">
-
-          </div>
-        </div>
-
-        <div class="row text-center">
-          <div class="col-lg-6">
-            <div class="media-02819 card">
-              <a href="event_calendar.html" class="img-link"><img src="images/ec.jpg" alt="Image" class="img-fluid"></a>
-              <p class="title"><a href="event_calendar.html">Event Calendar</a></p>
-
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="media-02819 card">
-              <a href="agency_directory.html" class="img-link"><img src="images/adirectory.jpg" alt="Image" class="img-fluid"></a>
-              <p class="title"><a href="agency_directory.html">Agency Directory</a></p>
-
-            </div>
-          </div>
-
-
-        </div>
-      </div>
-    </div>
-
-
-    <div class="site-section bg-primary">
-      <div class="container">
-        <div class="row mb-5 align-items-center">
-          <div class="col-md-7">
-            <h5 class="text-black mb-3">What We Do</h5>
+          <div class="col-md-12">
+            <h1 class="text-black mb-3">Title of current or upcoming event</h1>
 
           </div>
         </div>
         <div class="row">
+          <div class="col-lg-6">
+            <div class="media-02819 card">
+              <a href="event-monday.html" class="img-link"><img src="images/monday.png" alt="Image" class="img-fluid"></a>
+              <p class="title"><a href="event-monday.html">March 9, 2020</a></p>
 
-          <div class="col-md-6 mb-4 col-lg-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-29193 text-center">
-
-
-              <p>Support individuals in the least restrictive environment with a focus on community inclusion and participation.</p>
             </div>
           </div>
-          <div class="col-md-6 mb-4 col-lg-4" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-29193 text-center">
+          <div class="col-lg-6">
+            <div class="media-02819 card">
+              <a href="event-tuesday.html" class="img-link"><img src="images/tuesday.png" alt="Image" class="img-fluid"></a>
+              <p class="title"><a href="event-tuesday.html">March 10, 2020</a></p>
 
-
-              <p>Provide individualized support that maximizes the potential of each person.</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 mb-4 col-lg-4" data-aos="fade-up" data-aos-delay="">
-            <div class="service-29193 text-center">
-
-
-              <p>Develope and foster partnerships with each other, as well as State and Federal agencies to develop cost effective quality models of support.</p>
             </div>
           </div>
 
-          <div class="col-md-6 mb-4 col-lg-4" data-aos="fade-up" data-aos-delay="">
-            <div class="service-29193 text-center">
+          <div class="col-lg-6">
+            <div class="media-02819 card">
+              <a href="event-wednesday.html" class="img-link"><img src="images/wednesday.png" alt="Image" class="img-fluid"></a>
+              <p class="title"><a href="event-wednesday.html">March 11, 2020</a></p>
 
-              <p>Provide opportunities for individuals with intellectual disabilities to have the opportunity to work and obtain gainful employment in their communities.</p>
             </div>
           </div>
-          <div class="col-md-6 mb-4 col-lg-4" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-29193 text-center">
-
-              <p>Foster natural supports through families and friends and other community resources.</p>
-            </div>
-          </div>
-          <div class="col-md-6 mb-4 col-lg-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-29193 text-center">
-
-              <p>Create environments that support innovation by sharing and learning from each other and by reaching out beyond our local boarders to learn about new and best practice models of service.</p>
-            </div>
-          </div>
-
+</div>
+</div>
         </div>
-      </div>
-    </div>
 
 
     <div class="site-section section-4">
