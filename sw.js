@@ -1,10 +1,16 @@
-var CACHE_NAME = 'v1.2';
+var CACHE_NAME = 'v1.4';
 var urlsToCache =
-  '/'
-  './index.html',
-  'index.js',
-  'images/flower-512.png',
-  'images/flower-192.png',
+  '/schspa/'
+  '/schspa/index.html',
+  '/schspa/index.js',
+  '/schspa/css/style.css',
+  '/schspa/event-calendar.html',
+  '/schspa/event-monday.html',
+  '/schspa/event-tuesday.html',
+  '/schspa/event-wednesday.html',
+  '/schspa/agency-directory.html',
+  '/schspa/images/flower-512.png',
+  '/schspa/images/flower-192.png',
 ];
 
 self.addEventListener('install', event => {
