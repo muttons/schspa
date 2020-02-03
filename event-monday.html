@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
     <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
 
     <!-- MAIN CSS -->
     <link rel="stylesheet" href="css/style.css">
@@ -91,6 +92,22 @@ h5 {
 background-color: #C1D6D8!important;
 }
 
+[data-toggle="collapse"]:after {
+    display: inline-block;
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 25px;
+    font-weight: bold;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\f107";
+    transform: rotate(-180deg) ;
+    transition: all linear 0.25s;
+  }
+[data-toggle="collapse"].collapsed:after {
+  transform: rotate(0deg) ;
+}
 
   </style>
   <!--  END STYLE SECTION FOR CSS -->
@@ -167,8 +184,8 @@ background-color: #C1D6D8!important;
   <div class="card">
     <div class="card-header" id="headingOne">
       <h5 class="mb-0">
-        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne"><h5>
-          Registration - 8:00am - 4:00pm     &#8744;</h5>
+        <button class="btn btn-link collapsed col-sm-12" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne"><h5>
+          Registration - 8:00am - 4:00pm     </h5>
         </button>
       </h5>
     </div>
@@ -182,8 +199,8 @@ background-color: #C1D6D8!important;
   <div class="card">
     <div class="card-header ch2" id="headingTwo">
       <h5 class="mb-0">
-        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><h5>
-          Exhibits and Sponsors - 12:00pm - 4:30pm &#8744;</h5>
+        <button class="btn btn-link collapsed col-sm-12" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><h5>
+          Exhibits and Sponsors - 12:00pm - 4:30pm </h5>
         </button>
       </h5>
     </div>
@@ -196,8 +213,8 @@ background-color: #C1D6D8!important;
   <div class="card">
     <div class="card-header" id="headingThree">
       <h5 class="mb-0">
-        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><h5>
-          Concurrent Pre-Conference Workshops - 9:00am - 11:45am &#8744;</h5>
+        <button class="btn btn-link collapsed col-sm-12" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><h5>
+          Concurrent Pre-Conference Workshops - 9:00am - 11:45am </h5>
         </button>
       </h5>
     </div>
@@ -210,8 +227,8 @@ background-color: #C1D6D8!important;
           <div class="card">
             <div class="card-header ch2" id="heading4">
               <h5 class="mb-0">
-                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4"><h5>
-                  Using Therap: What you Didn’t Know  You Could Do With the Data in Therap     &#8744;</h5>
+                <button class="btn btn-link collapsed col-sm-12" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4"><h5>
+                  Using Therap: What you Didn’t Know  You Could Do With the Data in Therap     </h5>
                 </button>
               </h5>
             </div>
@@ -231,8 +248,8 @@ background-color: #C1D6D8!important;
           <div class="card">
             <div class="card-header" id="heading5">
               <h5 class="mb-0">
-                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5"><h5>
-                  Person Centered Thinking: Bringing It All Together &#8744;</h5>
+                <button class="btn btn-link collapsed col-sm-12" type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5"><h5>
+                  Person Centered Thinking: Bringing It All Together </h5>
                 </button>
               </h5>
             </div>
@@ -250,8 +267,8 @@ TARGET AUDIENCE:  Coordinators, Program Managers, Supervisors, QA staff, waiver 
           <div class="card">
             <div class="card-header ch2" id="heading6">
               <h5 class="mb-0">
-                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6"><h5>
-                  Moving from the Impossible to the Possible. Developing Leadership From the Inside Out &#8744;</h5>
+                <button class="btn btn-link collapsed col-sm-12" type="button" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6"><h5>
+                  Moving from the Impossible to the Possible. Developing Leadership From the Inside Out </h5>
                 </button>
               </h5>
             </div>
@@ -272,8 +289,8 @@ TARGET AUDIENCE: Executive Directors, Supervisors, Managers, people with aspirat
           <div class="card">
             <div class="card-header" id="heading7">
               <h5 class="mb-0">
-                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse7" aria-expanded="false" aria-controls="collapse7"><h5>
-                  Enabling Technology: National, State and Local Perspectives; Opportunities and Challenges &#8744;</h5>
+                <button class="btn btn-link collapsed col-sm-12" type="button" data-toggle="collapse" data-target="#collapse7" aria-expanded="false" aria-controls="collapse7"><h5>
+                  Enabling Technology: National, State and Local Perspectives; Opportunities and Challenges </h5>
                 </button>
               </h5>
             </div>
@@ -347,7 +364,7 @@ Managers, Direct Support Professionals, Behavior Support Professionals, Health C
 
     </div>
 
-    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery-3.4.1.slim.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
@@ -355,7 +372,7 @@ Managers, Direct Support Professionals, Behavior Support Professionals, Health C
     <script src="js/jquery.waypoints.min.js"></script>
     <script src="js/jquery.animateNumber.min.js"></script>
     <script src="js/jquery.fancybox.min.js"></script>
-    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.easing.1.4.1.js"></script>
     <script src="js/aos.js"></script>
 
     <script src="js/main.js"></script>
