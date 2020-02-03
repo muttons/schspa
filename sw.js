@@ -1,16 +1,16 @@
-var CACHE_NAME = 'v2.1';
+var CACHE_NAME = 'v2.2';
 var urlsToCache = [
   '/',
-  '/index.html',
-  '/index.js',
-  '/css/style.css',
-  '/event-calendar.html',
-  '/event-monday.html',
-  '/event-tuesday.html',
-  '/event-wednesday.html',
-  '/agency-directory.html',
-  '/images/flower-512.png',
-  '/images/flower-192.png',
+  'index.html',
+  'index.js',
+  'css/style.css',
+  'event-calendar.html',
+  'event-monday.html',
+  'event-tuesday.html',
+  'event-wednesday.html',
+  'agency-directory.html',
+  'images/flower-512.png',
+  'images/flower-192.png',
 ];
 
 self.addEventListener('install', event => {
