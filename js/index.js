@@ -17,7 +17,7 @@ if('serviceWorker' in navigator) {
 
 let deferredPrompt;
 const addBtn = document.querySelector('.add-button');
-addBtn.style.display = 'none';
+addBtn.style.display = 'true';
 
 window.addEventListener('beforeinstallprompt', (e) => {
   // Prevent Chrome 67 and earlier from automatically showing the prompt
@@ -52,18 +52,3 @@ function myFunction() {
     x.style.display = "block";
   }
 }
-
-// enables placeholder text for google cse search bar
-(function() {
-  var cx = '008511990827613828420:oyojv3gjygu';
-  var gcse = document.createElement('script');
-  gcse.type = 'text/javascript';
-  gcse.async = true;
-  gcse.src = 'https://cse.google.com/cse.js?cx=008511990827613828420:oyojv3gjygu'+ cx;
-  var s = document.getElementsByTagName('script')[0];
-  s.parentNode.insertBefore(gcse, s);
-})();
-
-window.onload = function(){
-document.getElementById('gsc-i-id1').placeholder = 'SEARCH';
-};

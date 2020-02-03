@@ -3,17 +3,17 @@
   "name": "schspa",
   "icons": [
     {
-      "src": "/images/hero_1.jpg",
+      "src": "/images/flower-512.png",
       "type": "image/png",
       "sizes": "512x512"
     } ,
     {
-      "src": "/images/hero_2.jpg",
-      "type": "image/jpg",
+      "src": "/images/flower-192.png",
+      "type": "image/png",
       "sizes": "192x192"
     }
-  ],
-  "start_url": "/schspa/index.html",
+    ],
+  "start_url": "index.html",
   "background_color": "#292929",
   "display": "standalone",
   "theme_color": "#292929"
