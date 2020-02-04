@@ -1,23 +1,22 @@
 {
+  "name": "schspa PWA",
   "short_name": "schspa",
-  "name": "schspa",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#292929",
+  "theme_color": "#292929",
+  "prientation": "portrait-primary",
   "icons": [
     {
       "src": "/images/schspa-512v2.png",
-      "sizes": "512x512",
-      "type": "image/png"
-
-    } ,
+      "type": "image/png",
+      "sizes": "512x512"
+    },
     {
       "src": "/images/schspa-192v2.png",
-      "sizes": "192x192",
-      "type": "image/png"
-
+      "type": "image/png",
+      "sizes": "192x192"
     }
     ],
-  "start_url": ".",
-  "scope": ".",
-  "background_color": "#292929",
-  "display": "standalone",
-  "theme_color": "#292929"
+
 }
