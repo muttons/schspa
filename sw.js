@@ -10,7 +10,7 @@ var urlsToCache = [
   '/index.js',
   '/manifest.json',
   '/images/',
-  '/css/',
+  '/css/'
 ];
 
 self.addEventListener('install', event => {
