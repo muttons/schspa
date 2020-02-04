@@ -1,4 +1,4 @@
-var CACHE_NAME = 'v3.1';
+var CACHE_NAME = 'v3.2';
 var urlsToCache = [
   '/index.js',
   '/css/style.css',
@@ -7,6 +7,10 @@ var urlsToCache = [
   '/event-tuesday.html',
   '/event-wednesday.html',
   '/agency-directory.html',
+  '/index.js',
+  '/manifest.json',
+  '/images/',
+  '/css/',
 ];
 
 self.addEventListener('install', event => {
