@@ -1,21 +1,76 @@
 {
-  "name": "schspa PWA",
-  "short_name": "schspa",
-  "start_url": ".",
+  "name": "Schspa Web App",
+  "short_name": "Schspa App",
+  "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#292929",
   "theme_color": "#292929",
-  "prientation": "portrait-primary",
+  "orientation": "portrait-primary",
   "icons": [
     {
-      "src": "/images/schspa-512v2.png",
+      "src": "/images/schspa-60x60.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "60x60"
     },
     {
-      "src": "/images/schspa-192v2.png",
+      "src": "/images/schspa-72x72.png",
+      "type": "image/png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "/images/schspa-76x76.png",
+      "type": "image/png",
+      "sizes": "76x76"
+    },
+    {
+      "src": "/images/schspa-96x96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "/images/schspa-114x114.png",
+      "type": "image/png",
+      "sizes": "114x114"
+    },
+    {
+      "src": "/images/schspa-120x120.png",
+      "type": "image/png",
+      "sizes": "120x120"
+    },
+    {
+      "src": "/images/schspa-144x144.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "/images/schspa-150x150.png",
+      "type": "image/png",
+      "sizes": "150x150"
+    },
+    {
+      "src": "/images/schspa-152x152.png",
+      "type": "image/png",
+      "sizes": "152x152"
+    },
+    {
+      "src": "/images/schspa-180x180.png",
+      "type": "image/png",
+      "sizes": "180x180"
+    },
+    {
+      "src": "/images/schspa-192x192.png",
       "type": "image/png",
       "sizes": "192x192"
+    },
+    {
+      "src": "/images/schspa-310x310.png",
+      "type": "image/png",
+      "sizes": "310x310"
+    },
+    {
+      "src": "/images/schspa-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
     }
   ]
 }

@@ -8,45 +8,45 @@
 
 
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700i,900|Roboto&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="fonts/icomoon/style.css">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/animate.min.css">
-  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="/fonts/icomoon/style.css">
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/animate.min.css">
+  <link rel="stylesheet" href="/css/jquery.fancybox.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <link rel="stylesheet" href="css/owl.carousel.min.css">
-  <link rel="stylesheet" href="css/owl.theme.default.min.css">
-  <link rel="stylesheet" href="css/aos.css">
-  <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
-  <script src="index.js" defer></script>
-  <link rel="manifest" href="manifest.json">
-  <link rel="shortcut icon" href="icon/favicon.ico" type="image/x-icon">
-  <link rel="apple-touch-icon" sizes="150x150" href="icon/apple-touch-icon.png">
-  <link rel="icon" href="icon/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="/css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="/css/aos.css">
+  <link rel="stylesheet" href="/fonts/font-awesome/css/font-awesome.min.css">
+  <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+  <link rel="manifest" href="/manifest.json">
+  <!-- ios support -->
+  <link rel="apple-touch-icon" href="/icon/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-status-bar" content="#292929">
+  <meta name="theme-color" content="#292929">
   <!-- MAIN CSS -->
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="/css/style.css">
 
   </head>
   <!--  START STYLE SECTION FOR CSS -->
   <style>
-  .btn-primary {
 
+  .btn-primary {
+    background-color: white;
     margin-top: 20px;
-    border: none;
-    background-color: #13191F;
-    color: #fff;
   }
   .btn-primary:hover, .btn-primary:focus, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
       color: #fff;
-      background-color: #292929;
-
+      background-color: #DDDFDF;
+      border-color: #285e8e; /*set the color you want here*/
   }
   .btn-primary:active:focus {
-     background-color: #000!important;
+     background-color: #292929!important;
    }
-h1 {
-  font-family: 'arial', sans-serif;
-  font-size: 40px;
-}
+   h1 {
+     font-family: 'arial', sans-serif;
+     font-size: 40px;
+   }
 h2 {
   padding-top: 10px;
 }
@@ -64,7 +64,7 @@ a {
 }
 
 .bg-primary {
-  background-color: #26536B!important;
+  background-color: #C1D6D8!important;
 }
 
 .btn-link.collapsed {
@@ -92,23 +92,10 @@ h5 {
   color: #fff;
 }
 
-h6 {
-  font-family: 'arial', sans-serif;
-  font-size: 25px;
-  color: #292929;
-  padding-top: 20px;
-}
-
-h7 {
-  font-family: 'arial', sans-serif;
-  font-size: 15px;
-  color: #292929;
-  padding-top: 20px;
-
-}
 .bg-primary {
 background-color: #C1D6D8!important;
 }
+
 [data-toggle="collapse"]:after {
     display: inline-block;
     display: inline-block;
@@ -125,6 +112,7 @@ background-color: #C1D6D8!important;
 [data-toggle="collapse"].collapsed:after {
   transform: rotate(0deg) ;
 }
+
   </style>
   <!--  END STYLE SECTION FOR CSS -->
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -147,15 +135,15 @@ background-color: #C1D6D8!important;
         <div class="container">
           <div class="row align-items-center position-relative">
             <div class="col-lg-7">
-               <a href="index.html" class="float-left title"><img src="images/schspa-80v2.png"> schspa</a>
+               <a href="/index.html" class="float-left title"><img src="/images/schspa-logo.png"> schspa</a>
               <div class="ml-auto toggle-button d-inline-block d-lg-none"><a href="#" class="site-menu-toggle py-5 js-menu-toggle text-white"><span class="icon-menu h3 text-primary"></span></a></div>
             </div>
 
             <div class="col-lg-4">
               <nav class="site-navigation text-left mr-auto " role="navigation">
                 <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
-                  <li><a href="event-calendar.html">Event Calendar</a></h3></li>
-                  <li><a href="agency-directory.html">Agency Directory</a></h3></li>
+                  <li><a href="/pages/event-calendar.html">Event Calendar</a></h3></li>
+                  <li><a href="/pages/agency-directory.html">Agency Directory</a></h3></li>
                 </ul>
               </nav>
             </div>
@@ -175,7 +163,7 @@ background-color: #C1D6D8!important;
       <div class="container">
         <div class="row mb-5 align-items-center">
           <div class="col-md-12">
-            <h1 class="text-black">Wednesday</h1>
+            <h1 class="text-black">Monday</h1>
 
           </div>
         </div>
@@ -192,14 +180,14 @@ background-color: #C1D6D8!important;
     <div class="card-header" id="headingOne">
       <h5 class="mb-0">
         <button class="btn btn-link collapsed col-sm-12" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne"><h5>
-          Breakfast Buffet and Hotel checkout - 7:00am - 8:30am     </h5>
+          Registration - 8:00am - 4:00pm     </h5>
         </button>
       </h5>
     </div>
 
     <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
       <div class="card-body">
-      Location   | Coastal Grille Embassy Suites Lobby
+      Location   | Harrow Foyer
       </div>
     </div>
   </div>
@@ -207,7 +195,7 @@ background-color: #C1D6D8!important;
     <div class="card-header ch2" id="headingTwo">
       <h5 class="mb-0">
         <button class="btn btn-link collapsed col-sm-12" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><h5>
-          Exhibits and Sponsors - 7:30am - 10:00am </h5>
+          Exhibits and Sponsors - 12:00pm - 4:30pm </h5>
         </button>
       </h5>
     </div>
@@ -221,7 +209,7 @@ background-color: #C1D6D8!important;
     <div class="card-header" id="headingThree">
       <h5 class="mb-0">
         <button class="btn btn-link collapsed col-sm-12" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><h5>
-          Concurrent Sessions - 8:30am - 9:30pm </h5>
+          Concurrent Pre-Conference Workshops - 9:00am - 11:45am </h5>
         </button>
       </h5>
     </div>
@@ -234,17 +222,21 @@ background-color: #C1D6D8!important;
           <div class="card">
             <div class="card-header ch2" id="heading4">
               <h5 class="mb-0">
-                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4"><h5>
-                  The Bored Board     </h5>
+                <button class="btn btn-link collapsed col-sm-12" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4"><h5>
+                  Using Therap: What you Didn’t Know  You Could Do With the Data in Therap     </h5>
                 </button>
               </h5>
             </div>
 
             <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordionInner">
               <div class="card-body">
-              Location   | Winchester <br><br> The Board of Directors and the Chief Executive Officer are the leadership team. Building and developing that relationship are key to the success of the organization. Citizens who volunteer to become board members must be provided the knowledge and skills necessary to fulfill their fiduciary responsibilities to the organization. They must be aware of their roles and responsibilities-as well as their limitations. Not developing the board can result in disinterested members who make little or no contribution to the goal of meeting the needs of the individuals who rely on the organization. This presentation will provide tips, strategies and challenges to creating an effective board. Time will be available to address “hypothetical” real-world situations.<br><br>
+              Location   | Kensington D <br><br> Come explore all the various data that Therap has available and ways that the data can
+                          be used to monitor your own work flow and due dates or the workflow of your staff.<br><br>
 
-Dennis Lambries, Ph.D., Professor of Political Science at Newberry College
+                          Therap Team: Jeff Covington, Deputy Director of State Implementation; Ben Orner,
+                          Director of Program Integrity and Service Utilization, SCDDSN<br><br>
+
+                          TARGET AUDIENCE: Case Managers, Case Manager Supervisors, Case Management program staff
               </div>
             </div>
           </div>
@@ -252,15 +244,18 @@ Dennis Lambries, Ph.D., Professor of Political Science at Newberry College
             <div class="card-header" id="heading5">
               <h5 class="mb-0">
                 <button class="btn btn-link collapsed col-sm-12" type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5"><h5>
-                   Developing a Middle Management Training Academy </h5>
+                  Person Centered Thinking: Bringing It All Together </h5>
                 </button>
               </h5>
             </div>
             <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#accordionInner">
               <div class="card-body">
-                  Location   | Kensington D <br><br> Participants will learn about a complete curriculum for middle managers and up and coming/rising stars to prepare them to advance in their career. This training program can enhance retention in every facet of an organization<br><br>
+                  Location   | Kensington E <br><br> Utilizing a PowerPoint and panel discussion format, speakers will demonstrate how to use person centered thinking to complete a
+                  Personal Focus Worksheet and ISP Agenda in Therap to support compliance with the HCBS Settings Rule. <br><br>
 
-George Ulrich, Human Resource Director, Horry County DSN Board and Heather Waddell Deputy Director, Tri-Development and Aiken County DSN Board.
+Donna Hall, Deputy Director,  the Babcock Center, David Kammerer, Director of Staff Development, the Babcock Center and Richard Cummings, Director of Quality Assurance, the Babcock Center.<br><br>
+
+TARGET AUDIENCE:  Coordinators, Program Managers, Supervisors, QA staff, waiver participants and Direct Support Professionals
               </div>
             </div>
           </div>
@@ -268,15 +263,21 @@ George Ulrich, Human Resource Director, Horry County DSN Board and Heather Wadde
             <div class="card-header ch2" id="heading6">
               <h5 class="mb-0">
                 <button class="btn btn-link collapsed col-sm-12" type="button" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6"><h5>
-                  STEPS to Independence </h5>
+                  Moving from the Impossible to the Possible. Developing Leadership From the Inside Out </h5>
                 </button>
               </h5>
             </div>
             <div id="collapse6" class="collapse" aria-labelledby="heading6" data-parent="#accordionInner">
               <div class="card-body">
-                Location   | Kensington E <br><br> The purpose of this presentation is to introduce the audience to some of the steps which enable people being supported to have greater independence. This session will touch on three steps: gaining a deeper understanding of independence, using person centered approaches and how enabling technology supports people to reach their next level. Speakers will share survey data which indicates people with greater independence have a better quality of life. Participants will learn how using simple technology help people complete everyday tasks independently, freeing DSP staff for other duties. The presentation will consist of PowerPoint slides, videos and hands on demonstrations. Some technology devices will be given away to participants.<br><br>
+                Location   | Kensington F <br><br> Your organization is doing okay. You’ve had success, maybe some recognition, and a solid financial foundation, but you have a vision for more. Colleagues, employees and customers think you’ve done very well. But you know there’s more for you and your organization. In this high energy, culture changing presentation, Wynn will share: <br><br>
 
-Jeff Ballenger, Senior Vice President, the Charles Lea Center and Omar Chirinos. Next Step Manager for the Charles Lea Center.
+- What’s in the way of creating your bigger impact and how to move into “what’s possible?”<br>
+- How to ignite passion, purpose and caring in your team to create a “win-win” attitude.<br>
+- The	Keys to shift the culture of your entire organization into a	workplace of cooperation, joy and productivity.<br><br>
+
+Wynn Godbold, Bee Sharp Professional Training<br><br>
+
+TARGET AUDIENCE: Executive Directors, Supervisors, Managers, people with aspiration
               </div>
             </div>
           </div>
@@ -284,15 +285,18 @@ Jeff Ballenger, Senior Vice President, the Charles Lea Center and Omar Chirinos.
             <div class="card-header" id="heading7">
               <h5 class="mb-0">
                 <button class="btn btn-link collapsed col-sm-12" type="button" data-toggle="collapse" data-target="#collapse7" aria-expanded="false" aria-controls="collapse7"><h5>
-                  Therap’s Business Intelligence Tools and GERS and Demographics </h5>
+                  Enabling Technology: National, State and Local Perspectives; Opportunities and Challenges </h5>
                 </button>
               </h5>
             </div>
             <div id="collapse7" class="collapse" aria-labelledby="heading7" data-parent="#accordionInner">
               <div class="card-body">
-                Location   | Kinsington F <br><br> Making sure all staff are aware of a person’s health and safety needs is a real challenge for DD service providers. Therap’s IPOP module is a great way of documenting those needs in a way that is shared between staff, easy to update and user friendly.<br><br>
+                Location   | Winchester <br><br> Enabling Technology as another tool to support individuals is emerging as a national best practice approach to services. This session will explore the benefits and risks associated with implementing programs that use enabling technology. Particular attention will be given to program design & management with special attention towards complying with the final rule, risk management and organizational change. Careful consideration will also be given to the appropriate use and implementation of technology.<br><br>
 
-Therap Team: Jeff Covington, Deputy Director of State Implementation; Rich Frettoloso, Training and Implementation Specialist; Ishya “Shae” Dotson, Training and Implementation Specialist
+Gerald Bernard, Executive Director, the Charles Lea Center, Harold Sloves, Director of Program Innovation, Tennessee Department of Intellectual and Developmental Disabilities and Jason Ray, CEO, Simply Home<br><br>
+
+TARGET AUDIENCE: Executive Directors, Residential Staff, Coordinators, House
+Managers, Direct Support Professionals, Behavior Support Professionals, Health Care Professionals
               </div>
             </div>
           </div>
@@ -301,70 +305,11 @@ Therap Team: Jeff Covington, Deputy Director of State Implementation; Rich Frett
 
 
 
-
-
-
-
-
-
-
-
       </div>
     </div>
   </div>
 </div>
 
-<div class="card">
-  <div class="card-header ch2" id="heading11">
-    <h5 class="mb-0">
-      <button class="btn btn-link collapsed col-sm-12" type="button" data-toggle="collapse" data-target="#collapse11" aria-expanded="false" aria-controls="collapse11"><h5>
-        Break - 9:30am - 9:45am</h5>
-      </button>
-    </h5>
-  </div>
-  <div id="collapse11" class="collapse" aria-labelledby="heading11" data-parent="#accordionExample">
-    <div class="card-body">
-    </div>
-  </div>
-</div>
-
-<div class="card">
-  <div class="card-header" id="heading12">
-    <h5 class="mb-0">
-      <button class="btn btn-link collapsed col-sm-12" type="button" data-toggle="collapse" data-target="#collapse12" aria-expanded="false" aria-controls="collapse12"><h5>
-        Plenary Session - 9:45am - 10:30am </h5>
-      </button>
-    </h5>
-  </div>
-  <div id="collapse12" class="collapse" aria-labelledby="heading12" data-parent="#accordionExample">
-    <div class="card-body">
-      Location   | Kensington DEF
-      <br><br>Walk Ride Rodeo<br><br>
-
-Amberly Snyder will give an inspirational message about her life journey before and after a tragic accident, leaving her paralyzed from the waist down. Her goals in physical therapy were “walk, ride, rodeo.” Her message of faith and determination will open your heart to the possibilities of happiness regardless of your life situations while motivating you to set the goals to overcome the challenges thrown in your path.<br><br>
-
-Amberly Snyder, Nationally recognized inspirational speaker from Utah, USA.
-    </div>
-  </div>
-</div>
-
-<div class="card">
-  <div class="card-header ch2" id="heading13">
-    <h5 class="mb-0">
-      <button class="btn btn-link collapsed col-sm-12" type="button" data-toggle="collapse" data-target="#collapse13" aria-expanded="false" aria-controls="collapse13"><h5>
-        Awards and Fabulous Door Prizes (you have to be present to win) - 10:30am - 11:30am </h5>
-      </button>
-    </h5>
-  </div>
-  <div id="collapse13" class="collapse" aria-labelledby="heading13" data-parent="#accordionExample">
-    <div class="card-body">
-      Location   | Kensington DEF
-      <br><br>- Debbie Burton Award<br><br>
-- Direct Support Professional of the Year<br><br>
-- Door Prizes, etc.
-    </div>
-  </div>
-</div>
 
 
 
@@ -414,15 +359,16 @@ Amberly Snyder, Nationally recognized inspirational speaker from Utah, USA.
 
     </div>
 
-    <script src="js/jquery-3.4.1.slim.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.sticky.js"></script>
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/jquery.fancybox.min.js"></script>
-    <script src="js/aos.js"></script>
-    <script src="js/main.js"></script>
+    <script src="/js/app.js"></script>
+    <script src="/js/jquery-3.4.1.slim.min.js"></script>
+    <script src="/js/popper.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/owl.carousel.min.js"></script>
+    <script src="/js/jquery.sticky.js"></script>
+    <script src="/js/jquery.waypoints.min.js"></script>
+    <script src="/js/jquery.fancybox.min.js"></script>
+    <script src="/js/aos.js"></script>
+    <script src="/js/main.js"></script>
 
 
 
