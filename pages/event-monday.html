@@ -38,75 +38,84 @@
   <!-- MAIN CSS -->
   <link rel="stylesheet" href="/css/style.css">
 </head>
-  <!--  START STYLE SECTION FOR CSS -->
-  <style>
-
+<!--  START STYLE SECTION FOR CSS -->
+<style>
   .btn-primary {
     background-color: white;
     margin-top: 20px;
   }
-  .btn-primary:hover, .btn-primary:focus, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
-      color: #fff;
-      background-color: #DDDFDF;
-      border-color: #285e8e; /*set the color you want here*/
+
+  .btn-primary:hover,
+  .btn-primary:focus,
+  .btn-primary.active,
+  .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #DDDFDF;
+    border-color: #285e8e;
+    /*set the color you want here*/
   }
+
   .btn-primary:active:focus {
-     background-color: #292929!important;
-   }
-   h1 {
-     font-family: 'arial', sans-serif;
-     font-size: 40px;
-   }
-h2 {
-  padding-top: 10px;
-}
+    background-color: #292929 !important;
+  }
 
-.card {
-  margin-top: 40px;
-  padding-bottom: 20px;
-}
+  h1 {
+    font-family: 'arial', sans-serif;
+    font-size: 40px;
+  }
 
-.title {
-  font-size: 25px;
-}
-a {
-  color: #26536B!important;
-}
+  h2 {
+    padding-top: 10px;
+  }
 
-.bg-primary {
-  background-color: #C1D6D8!important;
-}
+  .card {
+    margin-top: 40px;
+    padding-bottom: 20px;
+  }
 
-.btn-link.collapsed {
-  color: #fff!important;
-  text-decoration: none!important;
-}
-.btn-link {
-  color: #fff!important;
-  text-decoration: none!important;
-}
+  .title {
+    font-size: 25px;
+  }
 
-.card-header {
-  background-color: #13191F;
+  a {
+    color: #26536B !important;
+  }
 
-}
+  .bg-primary {
+    background-color: #C1D6D8 !important;
+  }
 
-.ch2 {
-  background-color: #26536B;
+  .btn-link.collapsed {
+    color: #fff !important;
+    text-decoration: none !important;
+  }
 
-}
+  .btn-link {
+    color: #fff !important;
+    text-decoration: none !important;
+  }
 
-h5 {
-  font-family: 'arial', sans-serif;
-  font-size: 20px;
-  color: #fff;
-}
+  .card-header {
+    background-color: #13191F;
 
-.bg-primary {
-background-color: #C1D6D8!important;
-}
+  }
 
-[data-toggle="collapse"]:after {
+  .ch2 {
+    background-color: #26536B;
+
+  }
+
+  h5 {
+    font-family: 'arial', sans-serif;
+    font-size: 20px;
+    color: #fff;
+  }
+
+  .bg-primary {
+    background-color: #C1D6D8 !important;
+  }
+
+  [data-toggle="collapse"]:after {
     display: inline-block;
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
@@ -116,50 +125,53 @@ background-color: #C1D6D8!important;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     content: "\f107";
-    transform: rotate(-180deg) ;
+    transform: rotate(-180deg);
     transition: all linear 0.25s;
   }
-[data-toggle="collapse"].collapsed:after {
-  transform: rotate(0deg) ;
-}
 
-  </style>
-  <!--  END STYLE SECTION FOR CSS -->
-  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+  [data-toggle="collapse"].collapsed:after {
+    transform: rotate(0deg);
+  }
+</style>
+<!--  END STYLE SECTION FOR CSS -->
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
 
-    <div class="site-wrap" id="home-section">
+  <div class="site-wrap" id="home-section">
 
-      <div class="site-mobile-menu site-navbar-target">
-        <div class="site-mobile-menu-header">
-          <div class="site-mobile-menu-close mt-3">
-            <span class="icon-close2 js-menu-toggle"></span>
-          </div>
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
         </div>
-        <div class="site-mobile-menu-body"></div>
       </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
 
 
 
-      <header class="site-navbar site-navbar-target bg-white" role="banner">
-        <div class="container">
-          <div class="row align-items-center position-relative">
-            <div class="col-lg-7">
-               <a href="/index.html" class="float-left title"><img src="/images/schspa-logo.png"> schspa</a>
-              <div class="ml-auto toggle-button d-inline-block d-lg-none"><a href="#" class="site-menu-toggle py-5 js-menu-toggle text-white"><span class="icon-menu h3 text-primary"></span></a></div>
-            </div>
+    <header class="site-navbar site-navbar-target bg-white" role="banner">
+      <div class="container">
+        <div class="row align-items-center position-relative">
+          <div class="col-lg-7">
+            <a href="/index.html" class="float-left title"><img src="/images/schspa-logo.png"> schspa</a>
+            <div class="ml-auto toggle-button d-inline-block d-lg-none"><a href="#" class="site-menu-toggle py-5 js-menu-toggle text-white"><span class="icon-menu h3 text-primary"></span></a></div>
+          </div>
 
-            <div class="col-lg-4">
-              <nav class="site-navigation text-left mr-auto " role="navigation">
-                <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
-                  <li><a href="/pages/event-calendar.html">Event Calendar</a></h3></li>
-                  <li><a href="/pages/agency-directory.html">Agency Directory</a></h3></li>
-                </ul>
-              </nav>
-            </div>
+          <div class="col-lg-4">
+            <nav class="site-navigation text-left mr-auto " role="navigation">
+              <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
+                <li><a href="/pages/event-calendar.html">Event Calendar</a></h3>
+                </li>
+                <li><a href="/pages/agency-directory.html">Agency Directory</a></h3>
+                </li>
+              </ul>
+            </nav>
           </div>
         </div>
-      </header>
+      </div>
+    </header>
 
 
 
@@ -181,208 +193,220 @@ background-color: #C1D6D8!important;
           <div class="col-sm-2"></div>
 
 
-            <div class="card col-sm-8">
-              <div class="container">
+          <div class="card col-sm-8">
+            <div class="container">
 
-<!-- Start of container -->
-<div class="accordion" id="accordionExample">
-  <div class="card">
-    <div class="card-header" id="headingOne">
-      <h5 class="mb-0">
-        <button class="btn btn-link collapsed col-sm-12" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne"><h5>
-          Registration - 8:00am - 4:00pm     </h5>
-        </button>
-      </h5>
-    </div>
+              <!-- Start of container -->
+              <div class="accordion" id="accordionExample">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link collapsed col-sm-12" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        <h5>
+                          Registration - 8:00am - 4:00pm </h5>
+                      </button>
+                    </h5>
+                  </div>
 
-    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-      <div class="card-body">
-      Location   | Harrow Foyer
-      </div>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-header ch2" id="headingTwo">
-      <h5 class="mb-0">
-        <button class="btn btn-link collapsed col-sm-12" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><h5>
-          Exhibits and Sponsors - 12:00pm - 4:30pm </h5>
-        </button>
-      </h5>
-    </div>
-    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-      <div class="card-body">
-          Location   | Westminster Hall and Cambridge Hall
-      </div>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-header" id="headingThree">
-      <h5 class="mb-0">
-        <button class="btn btn-link collapsed col-sm-12" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><h5>
-          Concurrent Pre-Conference Workshops - 9:00am - 11:45am </h5>
-        </button>
-      </h5>
-    </div>
-    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-      <div class="card-body">
+                  <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                      Location | Harrow Foyer
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header ch2" id="headingTwo">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link collapsed col-sm-12" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <h5>
+                          Exhibits and Sponsors - 12:00pm - 4:30pm </h5>
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                      Location | Westminster Hall and Cambridge Hall
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link collapsed col-sm-12" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <h5>
+                          Concurrent Pre-Conference Workshops - 9:00am - 11:45am </h5>
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
 
 
-<!-- inner accordion 1 start -->
-        <div class="accordion" id="accordionInner">
-          <div class="card">
-            <div class="card-header ch2" id="heading4">
-              <h5 class="mb-0">
-                <button class="btn btn-link collapsed col-sm-12" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4"><h5>
-                  Using Therap: What you Didn’t Know  You Could Do With the Data in Therap     </h5>
-                </button>
-              </h5>
-            </div>
+                      <!-- inner accordion 1 start -->
+                      <div class="accordion" id="accordionInner">
+                        <div class="card">
+                          <div class="card-header ch2" id="heading4">
+                            <h5 class="mb-0">
+                              <button class="btn btn-link collapsed col-sm-12" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                                <h5>
+                                  Using Therap: What you Didn’t Know You Could Do With the Data in Therap </h5>
+                              </button>
+                            </h5>
+                          </div>
 
-            <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordionInner">
-              <div class="card-body">
-              Location   | Kensington D <br><br> Come explore all the various data that Therap has available and ways that the data can
-                          be used to monitor your own work flow and due dates or the workflow of your staff.<br><br>
+                          <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordionInner">
+                            <div class="card-body">
+                              Location | Kensington D <br><br> Come explore all the various data that Therap has available and ways that the data can
+                              be used to monitor your own work flow and due dates or the workflow of your staff.<br><br>
 
-                          Therap Team: Jeff Covington, Deputy Director of State Implementation; Ben Orner,
-                          Director of Program Integrity and Service Utilization, SCDDSN<br><br>
+                              Therap Team: Jeff Covington, Deputy Director of State Implementation; Ben Orner,
+                              Director of Program Integrity and Service Utilization, SCDDSN<br><br>
 
-                          TARGET AUDIENCE: Case Managers, Case Manager Supervisors, Case Management program staff
+                              TARGET AUDIENCE: Case Managers, Case Manager Supervisors, Case Management program staff
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <div class="card-header" id="heading5">
+                            <h5 class="mb-0">
+                              <button class="btn btn-link collapsed col-sm-12" type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                                <h5>
+                                  Person Centered Thinking: Bringing It All Together </h5>
+                              </button>
+                            </h5>
+                          </div>
+                          <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#accordionInner">
+                            <div class="card-body">
+                              Location | Kensington E <br><br> Utilizing a PowerPoint and panel discussion format, speakers will demonstrate how to use person centered thinking to complete a
+                              Personal Focus Worksheet and ISP Agenda in Therap to support compliance with the HCBS Settings Rule. <br><br>
+
+                              Donna Hall, Deputy Director, the Babcock Center, David Kammerer, Director of Staff Development, the Babcock Center and Richard Cummings, Director of Quality Assurance, the Babcock Center.<br><br>
+
+                              TARGET AUDIENCE: Coordinators, Program Managers, Supervisors, QA staff, waiver participants and Direct Support Professionals
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <div class="card-header ch2" id="heading6">
+                            <h5 class="mb-0">
+                              <button class="btn btn-link collapsed col-sm-12" type="button" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                                <h5>
+                                  Moving from the Impossible to the Possible. Developing Leadership From the Inside Out </h5>
+                              </button>
+                            </h5>
+                          </div>
+                          <div id="collapse6" class="collapse" aria-labelledby="heading6" data-parent="#accordionInner">
+                            <div class="card-body">
+                              Location | Kensington F <br><br> Your organization is doing okay. You’ve had success, maybe some recognition, and a solid financial foundation, but you have a vision for more. Colleagues, employees and customers think
+                              you’ve done very well. But you know there’s more for you and your organization. In this high energy, culture changing presentation, Wynn will share: <br><br>
+
+                              - What’s in the way of creating your bigger impact and how to move into “what’s possible?”<br>
+                              - How to ignite passion, purpose and caring in your team to create a “win-win” attitude.<br>
+                              - The Keys to shift the culture of your entire organization into a workplace of cooperation, joy and productivity.<br><br>
+
+                              Wynn Godbold, Bee Sharp Professional Training<br><br>
+
+                              TARGET AUDIENCE: Executive Directors, Supervisors, Managers, people with aspiration
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <div class="card-header" id="heading7">
+                            <h5 class="mb-0">
+                              <button class="btn btn-link collapsed col-sm-12" type="button" data-toggle="collapse" data-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                                <h5>
+                                  Enabling Technology: National, State and Local Perspectives; Opportunities and Challenges </h5>
+                              </button>
+                            </h5>
+                          </div>
+                          <div id="collapse7" class="collapse" aria-labelledby="heading7" data-parent="#accordionInner">
+                            <div class="card-body">
+                              Location | Winchester <br><br> Enabling Technology as another tool to support individuals is emerging as a national best practice approach to services. This session will explore the benefits and risks associated with
+                              implementing programs that use enabling technology. Particular attention will be given to program design & management with special attention towards complying with the final rule, risk management and organizational
+                              change. Careful consideration will also be given to the appropriate use and implementation of technology.<br><br>
+
+                              Gerald Bernard, Executive Director, the Charles Lea Center, Harold Sloves, Director of Program Innovation, Tennessee Department of Intellectual and Developmental Disabilities and Jason Ray, CEO, Simply Home<br><br>
+
+                              TARGET AUDIENCE: Executive Directors, Residential Staff, Coordinators, House
+                              Managers, Direct Support Professionals, Behavior Support Professionals, Health Care Professionals
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- inner accordion 1 end -->
+
+
+
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-header" id="heading5">
-              <h5 class="mb-0">
-                <button class="btn btn-link collapsed col-sm-12" type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5"><h5>
-                  Person Centered Thinking: Bringing It All Together </h5>
-                </button>
-              </h5>
-            </div>
-            <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#accordionInner">
-              <div class="card-body">
-                  Location   | Kensington E <br><br> Utilizing a PowerPoint and panel discussion format, speakers will demonstrate how to use person centered thinking to complete a
-                  Personal Focus Worksheet and ISP Agenda in Therap to support compliance with the HCBS Settings Rule. <br><br>
 
-Donna Hall, Deputy Director,  the Babcock Center, David Kammerer, Director of Staff Development, the Babcock Center and Richard Cummings, Director of Quality Assurance, the Babcock Center.<br><br>
 
-TARGET AUDIENCE:  Coordinators, Program Managers, Supervisors, QA staff, waiver participants and Direct Support Professionals
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-header ch2" id="heading6">
-              <h5 class="mb-0">
-                <button class="btn btn-link collapsed col-sm-12" type="button" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6"><h5>
-                  Moving from the Impossible to the Possible. Developing Leadership From the Inside Out </h5>
-                </button>
-              </h5>
-            </div>
-            <div id="collapse6" class="collapse" aria-labelledby="heading6" data-parent="#accordionInner">
-              <div class="card-body">
-                Location   | Kensington F <br><br> Your organization is doing okay. You’ve had success, maybe some recognition, and a solid financial foundation, but you have a vision for more. Colleagues, employees and customers think you’ve done very well. But you know there’s more for you and your organization. In this high energy, culture changing presentation, Wynn will share: <br><br>
 
-- What’s in the way of creating your bigger impact and how to move into “what’s possible?”<br>
-- How to ignite passion, purpose and caring in your team to create a “win-win” attitude.<br>
-- The	Keys to shift the culture of your entire organization into a	workplace of cooperation, joy and productivity.<br><br>
 
-Wynn Godbold, Bee Sharp Professional Training<br><br>
 
-TARGET AUDIENCE: Executive Directors, Supervisors, Managers, people with aspiration
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-header" id="heading7">
-              <h5 class="mb-0">
-                <button class="btn btn-link collapsed col-sm-12" type="button" data-toggle="collapse" data-target="#collapse7" aria-expanded="false" aria-controls="collapse7"><h5>
-                  Enabling Technology: National, State and Local Perspectives; Opportunities and Challenges </h5>
-                </button>
-              </h5>
-            </div>
-            <div id="collapse7" class="collapse" aria-labelledby="heading7" data-parent="#accordionInner">
-              <div class="card-body">
-                Location   | Winchester <br><br> Enabling Technology as another tool to support individuals is emerging as a national best practice approach to services. This session will explore the benefits and risks associated with implementing programs that use enabling technology. Particular attention will be given to program design & management with special attention towards complying with the final rule, risk management and organizational change. Careful consideration will also be given to the appropriate use and implementation of technology.<br><br>
 
-Gerald Bernard, Executive Director, the Charles Lea Center, Harold Sloves, Director of Program Innovation, Tennessee Department of Intellectual and Developmental Disabilities and Jason Ray, CEO, Simply Home<br><br>
 
-TARGET AUDIENCE: Executive Directors, Residential Staff, Coordinators, House
-Managers, Direct Support Professionals, Behavior Support Professionals, Health Care Professionals
-              </div>
+
+
+              <!-- End of container -->
             </div>
           </div>
         </div>
-<!-- inner accordion 1 end -->
-
-
-
       </div>
     </div>
-  </div>
-</div>
 
 
 
 
 
 
+    <footer class="site-footer bg-light">
+      <div class="container">
+        <div class="row">
 
-
-
-<!-- End of container -->
+          <div class="col-md-12 text-center">
+            <h2 class="footer-heading mb-4">Follow Us</h2>
+            <a href="https://www.facebook.com/South-Carolina-Human-Service-Providers-Association-134256086634636/" target="_blank" class="smoothscroll pl-0 pr-3"><span class="icon-facebook"></span></a>
+            <a href="https://twitter.com/SC_HSPA?lang=en" target="_blank" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
+            </form>
+          </div>
+        </div>
+        <div class="row pt-5 mt-5 text-center">
+          <div class="col-md-12">
+            <div class="pt-5">
+              <p>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                Copyright &copy;<script>
+                  document.write(new Date().getFullYear());
+                </script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              </p>
+              <p> Edited by Jonathan Osterud at Thrive Upstate</p>
             </div>
           </div>
-      </div>
-    </div>
-</div>
 
-
-
-
-
-
-<footer class="site-footer bg-light">
-  <div class="container">
-    <div class="row">
-
-      <div class="col-md-12 text-center">
-        <h2 class="footer-heading mb-4">Follow Us</h2>
-        <a href="https://www.facebook.com/South-Carolina-Human-Service-Providers-Association-134256086634636/"  target="_blank" class="smoothscroll pl-0 pr-3"><span class="icon-facebook"></span></a>
-        <a href="https://twitter.com/SC_HSPA?lang=en" target="_blank" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
-        </form>
-      </div>
-    </div>
-    <div class="row pt-5 mt-5 text-center">
-      <div class="col-md-12">
-        <div class="pt-5">
-          <p>
-        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
-        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-        </p>
-        <p> Edited by Jonathan Osterud at Thrive Upstate</p>
         </div>
       </div>
+    </footer>
 
-    </div>
+
   </div>
-</footer>
 
-
-    </div>
-
-    <script src="/js/app.js"></script>
-    <script src="/js/jquery-3.4.1.slim.min.js"></script>
-    <script src="/js/popper.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
-    <script src="/js/owl.carousel.min.js"></script>
-    <script src="/js/jquery.sticky.js"></script>
-    <script src="/js/jquery.waypoints.min.js"></script>
-    <script src="/js/jquery.fancybox.min.js"></script>
-    <script src="/js/aos.js"></script>
-    <script src="/js/main.js"></script>
+  <script src="/js/app.js"></script>
+  <script src="/js/jquery-3.4.1.slim.min.js"></script>
+  <script src="/js/popper.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+  <script src="/js/owl.carousel.min.js"></script>
+  <script src="/js/jquery.sticky.js"></script>
+  <script src="/js/jquery.waypoints.min.js"></script>
+  <script src="/js/jquery.fancybox.min.js"></script>
+  <script src="/js/aos.js"></script>
+  <script src="/js/main.js"></script>
 
 
 
-  </body>
+</body>
 
 </html>

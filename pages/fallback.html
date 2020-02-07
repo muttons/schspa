@@ -39,89 +39,99 @@
   <link rel="stylesheet" href="/css/style.css">
 </head>
 <style>
+  .btn-primary {
 
-.btn-primary {
+    margin-top: 20px;
+    border: none;
+    background-color: #13191F;
+    color: #fff;
+  }
 
-  margin-top: 20px;
-  border: none;
-  background-color: #13191F;
-  color: #fff;
-}
-.btn-primary:hover, .btn-primary:focus, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+  .btn-primary:hover,
+  .btn-primary:focus,
+  .btn-primary.active,
+  .open>.dropdown-toggle.btn-primary {
     color: #fff;
     background-color: #292929;
 
-}
-.btn-primary:active:focus {
-   background-color: #000!important;
- }
-h1 {
-font-family: 'arial', sans-serif;
-font-size: 40px;
-}
-h2 {
-padding-top: 10px;
-}
+  }
 
-.card {
-margin-top: 40px;
-padding-bottom: 20px;
-}
+  .btn-primary:active:focus {
+    background-color: #000 !important;
+  }
 
-.title {
-font-size: 25px;
-}
-a {
-color: #26536B!important;
-}
+  h1 {
+    font-family: 'arial', sans-serif;
+    font-size: 40px;
+  }
 
-.bg-primary {
-background-color: #26536B!important;
-}
+  h2 {
+    padding-top: 10px;
+  }
 
-.btn-link.collapsed {
-color: #fff!important;
-text-decoration: none!important;
-}
-.btn-link {
-color: #fff!important;
-text-decoration: none!important;
-}
+  .card {
+    margin-top: 40px;
+    padding-bottom: 20px;
+  }
 
-.card-header {
-background-color: #13191F;
+  .title {
+    font-size: 25px;
+  }
 
-}
+  a {
+    color: #26536B !important;
+  }
 
-.ch2 {
-background-color: #26536B;
+  .bg-primary {
+    background-color: #26536B !important;
+  }
 
-}
+  .btn-link.collapsed {
+    color: #fff !important;
+    text-decoration: none !important;
+  }
 
-h5 {
-font-family: 'arial', sans-serif;
-font-size: 20px;
-color: #fff;
-}
+  .btn-link {
+    color: #fff !important;
+    text-decoration: none !important;
+  }
 
-h6 {
-font-family: 'arial', sans-serif;
-font-size: 25px;
-color: #292929;
-padding-top: 20px;
-}
+  .card-header {
+    background-color: #13191F;
 
-h7 {
-font-family: 'arial', sans-serif;
-font-size: 15px;
-color: #292929;
-padding-top: 20px;
+  }
 
-}
-.bg-primary {
-background-color: #C1D6D8!important;
-}
-[data-toggle="collapse"]:after {
+  .ch2 {
+    background-color: #26536B;
+
+  }
+
+  h5 {
+    font-family: 'arial', sans-serif;
+    font-size: 20px;
+    color: #fff;
+  }
+
+  h6 {
+    font-family: 'arial', sans-serif;
+    font-size: 25px;
+    color: #292929;
+    padding-top: 20px;
+  }
+
+  h7 {
+    font-family: 'arial', sans-serif;
+    font-size: 15px;
+    color: #292929;
+    padding-top: 20px;
+
+  }
+
+  .bg-primary {
+    background-color: #C1D6D8 !important;
+  }
+
+  [data-toggle="collapse"]:after {
     display: inline-block;
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
@@ -131,13 +141,13 @@ background-color: #C1D6D8!important;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     content: "\f107";
-    transform: rotate(-180deg) ;
+    transform: rotate(-180deg);
     transition: all linear 0.25s;
   }
-[data-toggle="collapse"].collapsed:after {
-  transform: rotate(0deg) ;
-}
 
+  [data-toggle="collapse"].collapsed:after {
+    transform: rotate(0deg);
+  }
 </style>
 
 
@@ -145,57 +155,60 @@ background-color: #C1D6D8!important;
 
 
 
-  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
 
-    <div class="site-wrap" id="home-section">
+  <div class="site-wrap" id="home-section">
 
-      <div class="site-mobile-menu site-navbar-target">
-        <div class="site-mobile-menu-header">
-          <div class="site-mobile-menu-close mt-3">
-            <span class="icon-close2 js-menu-toggle"></span>
-          </div>
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
         </div>
-        <div class="site-mobile-menu-body"></div>
       </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
 
 
 
-      <header class="site-navbar site-navbar-target bg-white" role="banner">
-        <div class="container">
-          <div class="row align-items-center position-relative">
-            <div class="col-lg-7">
-               <a href="/index.html" class="float-left title"><img src="/images/schspa-logo.png"> schspa</a>
-              <div class="ml-auto toggle-button d-inline-block d-lg-none"><a href="#" class="site-menu-toggle py-5 js-menu-toggle text-white"><span class="icon-menu h3 text-primary"></span></a></div>
-            </div>
+    <header class="site-navbar site-navbar-target bg-white" role="banner">
+      <div class="container">
+        <div class="row align-items-center position-relative">
+          <div class="col-lg-7">
+            <a href="/index.html" class="float-left title"><img src="/images/schspa-logo.png"> schspa</a>
+            <div class="ml-auto toggle-button d-inline-block d-lg-none"><a href="#" class="site-menu-toggle py-5 js-menu-toggle text-white"><span class="icon-menu h3 text-primary"></span></a></div>
+          </div>
 
-            <div class="col-lg-4">
-              <nav class="site-navigation text-left mr-auto " role="navigation">
-                <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
-                  <li><a href="/pages/event-calendar.html">Event Calendar</a></h3></li>
-                  <li><a href="/pages/agency-directory.html">Agency Directory</a></h3></li>
-                </ul>
-              </nav>
-            </div>
+          <div class="col-lg-4">
+            <nav class="site-navigation text-left mr-auto " role="navigation">
+              <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
+                <li><a href="/pages/event-calendar.html">Event Calendar</a></h3>
+                </li>
+                <li><a href="/pages/agency-directory.html">Agency Directory</a></h3>
+                </li>
+              </ul>
+            </nav>
           </div>
         </div>
-      </header>
+      </div>
+    </header>
 
 
 
-<div class="owl-carousel-wrapper">
-<div class="container-fluid bg-primary">
-<div class="site-section">
+    <div class="owl-carousel-wrapper">
+      <div class="container-fluid bg-primary">
+        <div class="site-section">
 
-    <div class="box-92819 shadow-lg text-black">
-      <h7>OOPS!</h7>
-      <p>Currently you cannot view this page offline</p>
-      <a href="/index.html" class="btn btn-primary text-white float-center">Go to Homepage</a>
+          <div class="box-92819 shadow-lg text-black">
+            <h7>OOPS!</h7>
+            <p>Currently you cannot view this page offline</p>
+            <a href="/index.html" class="btn btn-primary text-white float-center">Go to Homepage</a>
+          </div>
+
+        </div>
+      </div>
     </div>
 
-</div>
-</div>
-</div>
 
 
 
@@ -205,24 +218,21 @@ background-color: #C1D6D8!important;
 
 
 
+  </div>
+
+  <script src="/js/app.js"></script>
+  <script src="/js/jquery-3.4.1.slim.min.js"></script>
+  <script src="/js/popper.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+  <script src="/js/owl.carousel.min.js"></script>
+  <script src="/js/jquery.sticky.js"></script>
+  <script src="/js/jquery.waypoints.min.js"></script>
+  <script src="/js/jquery.fancybox.min.js"></script>
+  <script src="/js/aos.js"></script>
+  <script src="/js/main.js"></script>
 
 
 
-    </div>
-
-    <script src="/js/app.js"></script>
-    <script src="/js/jquery-3.4.1.slim.min.js"></script>
-    <script src="/js/popper.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
-    <script src="/js/owl.carousel.min.js"></script>
-    <script src="/js/jquery.sticky.js"></script>
-    <script src="/js/jquery.waypoints.min.js"></script>
-    <script src="/js/jquery.fancybox.min.js"></script>
-    <script src="/js/aos.js"></script>
-    <script src="/js/main.js"></script>
-
-
-
-  </body>
+</body>
 
 </html>
