@@ -1,20 +1,20 @@
 const staticCacheName = 'site-static-v10.1';
 const dynamicCacheName = 'site-dynamic-v10.1';
 const assets = [
-  '/dbtest',
-  '/dbtest/index.html',
-  '/dbtest/js/app.js',
-  '/dbtest/js/ui.js',
-  '/dbtest/js/db.js',
-  '/dbtest/src/searchApp.js',
-  '/dbtest/src/searchApp.css',
-  '/dbtest/css/styles.css',
+  '',
+  '/index.html',
+  '/js/app.js',
+  '/js/ui.js',
+  '/js/db.js',
+  '/src/searchApp.js',
+  '/src/searchApp.css',
+  '/css/styles.css',
   'https://fonts.googleapis.com/icon?family=Material+Icons',
   'https://fonts.gstatic.com/s/materialicons/v47/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2',
   'https://use.fontawesome.com/releases/v5.0.13/css/all.css',
-  '/dbtest/pages/fallback.html',
-  '/dbtest/pages/search.html',
-  '/dbtest/manifest.json'
+  '/pages/fallback.html',
+  '/pages/search.html',
+  '/manifest.json'
 ];
 
 // cache size limit function
@@ -68,7 +68,7 @@ self.addEventListener('fetch', evt => {
         });
       }).catch(() => {
         if(evt.request.url.indexOf('.html') > -1){
-          return caches.match('/dbtest/pages/fallback.html');
+          return caches.match('/pages/fallback.html');
         }
       })
     );
