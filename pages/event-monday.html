@@ -2,410 +2,175 @@
 <html lang="en">
 
 <head>
-  <title>SCHSPA</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-
-  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700i,900|Roboto&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/fonts/icomoon/style.css">
-  <link rel="stylesheet" href="/css/bootstrap.min.css">
-  <link rel="stylesheet" href="/css/animate.min.css">
-  <link rel="stylesheet" href="/css/jquery.fancybox.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <link rel="stylesheet" href="/css/owl.carousel.min.css">
-  <link rel="stylesheet" href="/css/owl.theme.default.min.css">
-  <link rel="stylesheet" href="/css/aos.css">
-  <link rel="stylesheet" href="/fonts/font-awesome/css/font-awesome.min.css">
-  <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
-  <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
-  <link rel="manifest" href="/manifest.json">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <!-- my CSS -->
+  <link type="text/css" href="/dbtest/css/styles.css" rel="stylesheet">
+  <!-- Service Worker Manifest -->
+  <link rel="manifest" href="/dbtest/manifest.json">
   <!-- ios support -->
-  <link rel="apple-touch-icon" href="/images/schspa-57x57.png">
-  <link rel="apple-touch-icon" href="/images/schspa-60x60.png">
-  <link rel="apple-touch-icon" href="/images/schspa-72x72.png">
-  <link rel="apple-touch-icon" href="/images/schspa-76x76.png">
-  <link rel="apple-touch-icon" href="/images/schspa-96x96.png">
-  <link rel="apple-touch-icon" href="/images/schspa-114x114.png">
-  <link rel="apple-touch-icon" href="/images/schspa-120x120.png">
-  <link rel="apple-touch-icon" href="/images/schspa-144x144.png">
-  <link rel="apple-touch-icon" href="/images/schspa-150x150.png">
-  <link rel="apple-touch-icon" href="/images/schspa-180x180.png">
-  <link rel="apple-touch-icon" href="/images/schspa-192x192.png">
-  <link rel="apple-touch-icon" href="/images/schspa-512x512.png">
+  <link rel="icon" href="/dbtest/img/icons/favicon.ico" type="image/x-icon">
+  <!-- ios support -->
+  <link rel="apple-touch-icon" href="/dbtest/img/icons/schspa-57x57.png">
+  <link rel="apple-touch-icon" href="/dbtest/img/icons/schspa-60x60.png">
+  <link rel="apple-touch-icon" href="/dbtest/img/icons/schspa-72x72.png">
+  <link rel="apple-touch-icon" href="/dbtest/img/icons/schspa-76x76.png">
+  <link rel="apple-touch-icon" href="/dbtest/img/icons/schspa-96x96.png">
+  <link rel="apple-touch-icon" href="/dbtest/img/icons/schspa-114x114.png">
+  <link rel="apple-touch-icon" href="/dbtest/img/icons/schspa-120x120.png">
+  <link rel="apple-touch-icon" href="/dbtest/img/icons/schspa-144x144.png">
+  <link rel="apple-touch-icon" href="/dbtest/img/icons/schspa-150x150.png">
+  <link rel="apple-touch-icon" href="/dbtest/img/icons/schspa-180x180.png">
+  <link rel="apple-touch-icon" href="/dbtest/img/icons/schspa-192x192.png">
+  <link rel="apple-touch-icon" href="/dbtest/img/icons/schspa-512x512.png">
   <meta name="apple-mobile-web-app-status-bar" content="#292929">
   <meta name="theme-color" content="#292929">
-  <!-- MAIN CSS -->
-  <link rel="stylesheet" href="/css/style.css">
+  <title>schspa</title>
 </head>
-<!--  START STYLE SECTION FOR CSS -->
-<style>
-  .btn-primary {
-    background-color: white;
-    margin-top: 20px;
-  }
 
-  .btn-primary:hover,
-  .btn-primary:focus,
-  .btn-primary.active,
-  .open>.dropdown-toggle.btn-primary {
-    color: #fff;
-    background-color: #DDDFDF;
-    border-color: #285e8e;
-    /*set the color you want here*/
-  }
-
-  .btn-primary:active:focus {
-    background-color: #292929 !important;
-  }
-
-  h1 {
-    font-family: 'arial', sans-serif;
-    font-size: 40px;
-  }
-
-  h2 {
-    padding-top: 10px;
-  }
-
-  .card {
-    margin-top: 40px;
-    padding-bottom: 20px;
-  }
-
-  .title {
-    font-size: 25px;
-  }
-
-  a {
-    color: #26536B !important;
-  }
-
-  .bg-primary {
-    background-color: #C1D6D8 !important;
-  }
-
-  .btn-link.collapsed {
-    color: #fff !important;
-    text-decoration: none !important;
-  }
-
-  .btn-link {
-    color: #fff !important;
-    text-decoration: none !important;
-  }
-
-  .card-header {
-    background-color: #13191F;
-
-  }
-
-  .ch2 {
-    background-color: #26536B;
-
-  }
-
-  h5 {
-    font-family: 'arial', sans-serif;
-    font-size: 20px;
-    color: #fff;
-  }
-
-  .bg-primary {
-    background-color: #C1D6D8 !important;
-  }
-
-  [data-toggle="collapse"]:after {
-    display: inline-block;
-    display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: 25px;
-    font-weight: bold;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    content: "\f107";
-    transform: rotate(-180deg);
-    transition: all linear 0.25s;
-  }
-
-  [data-toggle="collapse"].collapsed:after {
-    transform: rotate(0deg);
-  }
-</style>
-<!--  END STYLE SECTION FOR CSS -->
-
-<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+<body>
 
 
-  <div class="site-wrap" id="home-section">
+  <!-- nav -->
 
-    <div class="site-mobile-menu site-navbar-target">
-      <div class="site-mobile-menu-header">
-        <div class="site-mobile-menu-close mt-3">
-          <span class="icon-close2 js-menu-toggle"></span>
-        </div>
-      </div>
-      <div class="site-mobile-menu-body"></div>
+  <nav class="nav wrapper transparent nav-bg">
+    <div class="container">
+      <a href="/dbtest/index.html" class="brand-logo">schspa</a>
+      <a href="#" class="sidenav-trigger" data-target="mobile-links">
+        <i class="material-icons">menu</i>
+      </a>
+      <a href="/dbtest/pages/search.html"><i class="material-icons right search">search</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="/dbtest/pages/event-calendar.html">Event Calendar</a></li>
+        <li><a href="/dbtest/pages/agency-directory.html">Agency Directory</a></li>
+      </ul>
     </div>
+  </nav>
+
+
+  <!-- side nav -->
+  <ul class="sidenav grey lighten-2" id="mobile-links">
+    <li><a href="/dbtest/pages/event-calendar.html">Event Calendar</a></li>
+    <li><a href="/dbtest/pages/agency-directory.html">Agency Directory</a></li>
+
+  </ul>
 
 
 
-    <header class="site-navbar site-navbar-target bg-white" role="banner">
-      <div class="container">
-        <div class="row align-items-center position-relative">
-          <div class="col-lg-7">
-            <a href="/index.html" class="float-left title"><img src="/images/schspa-logo.png"> schspa</a>
-            <div class="ml-auto toggle-button d-inline-block d-lg-none"><a href="#" class="site-menu-toggle py-5 js-menu-toggle text-white"><span class="icon-menu h3 text-primary"></span></a></div>
-          </div>
+  <!-- Content events -->
+  <div class="section-background">
+    <div class="container section grey-text text-darken-1">
+      <ul class="collapsible popout eventsMonday">
 
-          <div class="col-lg-4">
-            <nav class="site-navigation text-left mr-auto " role="navigation">
-              <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
-                <li><a href="/pages/event-calendar.html">Event Calendar</a></h3>
-                </li>
-                <li><a href="/pages/agency-directory.html">Agency Directory</a></h3>
-                </li>
-              </ul>
-            </nav>
-          </div>
-        </div>
-      </div>
-    </header>
-
-
-
-
-
-
-
-
-
-    <div class="site-section bg-primary text-center">
-      <div class="container">
-        <div class="row mb-5 align-items-center">
-          <div class="col-md-12">
-            <h1 class="text-black">Monday</h1>
-
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-2"></div>
-
-
-          <div class="card col-sm-8">
-            <div class="container">
-
-              <!-- Start of container -->
-              <div class="accordion" id="accordionExample">
-                <div class="card">
-                  <div class="card-header" id="headingOne">
-                    <h5 class="mb-0">
-                      <button class="btn btn-link collapsed col-sm-12" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                        <h5>
-                          Registration - 8:00am - 4:00pm </h5>
-                      </button>
-                    </h5>
-                  </div>
-
-                  <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-                    <div class="card-body">
-                      Location | Harrow Foyer
-                    </div>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="card-header ch2" id="headingTwo">
-                    <h5 class="mb-0">
-                      <button class="btn btn-link collapsed col-sm-12" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        <h5>
-                          Exhibits and Sponsors - 12:00pm - 4:30pm </h5>
-                      </button>
-                    </h5>
-                  </div>
-                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                    <div class="card-body">
-                      Location | Westminster Hall and Cambridge Hall
-                    </div>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="card-header" id="headingThree">
-                    <h5 class="mb-0">
-                      <button class="btn btn-link collapsed col-sm-12" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        <h5>
-                          Concurrent Pre-Conference Workshops - 9:00am - 11:45am </h5>
-                      </button>
-                    </h5>
-                  </div>
-                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                    <div class="card-body">
-
-
-                      <!-- inner accordion 1 start -->
-                      <div class="accordion" id="accordionInner">
-                        <div class="card">
-                          <div class="card-header ch2" id="heading4">
-                            <h5 class="mb-0">
-                              <button class="btn btn-link collapsed col-sm-12" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
-                                <h5>
-                                  Using Therap: What you Didn’t Know You Could Do With the Data in Therap </h5>
-                              </button>
-                            </h5>
-                          </div>
-
-                          <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordionInner">
-                            <div class="card-body">
-                              Location | Kensington D <br><br> Come explore all the various data that Therap has available and ways that the data can
-                              be used to monitor your own work flow and due dates or the workflow of your staff.<br><br>
-
-                              Therap Team: Jeff Covington, Deputy Director of State Implementation; Ben Orner,
-                              Director of Program Integrity and Service Utilization, SCDDSN<br><br>
-
-                              TARGET AUDIENCE: Case Managers, Case Manager Supervisors, Case Management program staff
-                            </div>
-                          </div>
-                        </div>
-                        <div class="card">
-                          <div class="card-header" id="heading5">
-                            <h5 class="mb-0">
-                              <button class="btn btn-link collapsed col-sm-12" type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
-                                <h5>
-                                  Person Centered Thinking: Bringing It All Together </h5>
-                              </button>
-                            </h5>
-                          </div>
-                          <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#accordionInner">
-                            <div class="card-body">
-                              Location | Kensington E <br><br> Utilizing a PowerPoint and panel discussion format, speakers will demonstrate how to use person centered thinking to complete a
-                              Personal Focus Worksheet and ISP Agenda in Therap to support compliance with the HCBS Settings Rule. <br><br>
-
-                              Donna Hall, Deputy Director, the Babcock Center, David Kammerer, Director of Staff Development, the Babcock Center and Richard Cummings, Director of Quality Assurance, the Babcock Center.<br><br>
-
-                              TARGET AUDIENCE: Coordinators, Program Managers, Supervisors, QA staff, waiver participants and Direct Support Professionals
-                            </div>
-                          </div>
-                        </div>
-                        <div class="card">
-                          <div class="card-header ch2" id="heading6">
-                            <h5 class="mb-0">
-                              <button class="btn btn-link collapsed col-sm-12" type="button" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
-                                <h5>
-                                  Moving from the Impossible to the Possible. Developing Leadership From the Inside Out </h5>
-                              </button>
-                            </h5>
-                          </div>
-                          <div id="collapse6" class="collapse" aria-labelledby="heading6" data-parent="#accordionInner">
-                            <div class="card-body">
-                              Location | Kensington F <br><br> Your organization is doing okay. You’ve had success, maybe some recognition, and a solid financial foundation, but you have a vision for more. Colleagues, employees and customers think
-                              you’ve done very well. But you know there’s more for you and your organization. In this high energy, culture changing presentation, Wynn will share: <br><br>
-
-                              - What’s in the way of creating your bigger impact and how to move into “what’s possible?”<br>
-                              - How to ignite passion, purpose and caring in your team to create a “win-win” attitude.<br>
-                              - The Keys to shift the culture of your entire organization into a workplace of cooperation, joy and productivity.<br><br>
-
-                              Wynn Godbold, Bee Sharp Professional Training<br><br>
-
-                              TARGET AUDIENCE: Executive Directors, Supervisors, Managers, people with aspiration
-                            </div>
-                          </div>
-                        </div>
-                        <div class="card">
-                          <div class="card-header" id="heading7">
-                            <h5 class="mb-0">
-                              <button class="btn btn-link collapsed col-sm-12" type="button" data-toggle="collapse" data-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
-                                <h5>
-                                  Enabling Technology: National, State and Local Perspectives; Opportunities and Challenges </h5>
-                              </button>
-                            </h5>
-                          </div>
-                          <div id="collapse7" class="collapse" aria-labelledby="heading7" data-parent="#accordionInner">
-                            <div class="card-body">
-                              Location | Winchester <br><br> Enabling Technology as another tool to support individuals is emerging as a national best practice approach to services. This session will explore the benefits and risks associated with
-                              implementing programs that use enabling technology. Particular attention will be given to program design & management with special attention towards complying with the final rule, risk management and organizational
-                              change. Careful consideration will also be given to the appropriate use and implementation of technology.<br><br>
-
-                              Gerald Bernard, Executive Director, the Charles Lea Center, Harold Sloves, Director of Program Innovation, Tennessee Department of Intellectual and Developmental Disabilities and Jason Ray, CEO, Simply Home<br><br>
-
-                              TARGET AUDIENCE: Executive Directors, Residential Staff, Coordinators, House
-                              Managers, Direct Support Professionals, Behavior Support Professionals, Health Care Professionals
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <!-- inner accordion 1 end -->
-
-
-
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-
-
-
-
-
-
-
-
-              <!-- End of container -->
-            </div>
-          </div>
-        </div>
-      </div>
+      </ul>
     </div>
-
-
-
-
-
-
-    <footer class="site-footer bg-light">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-md-12 text-center">
-            <h2 class="footer-heading mb-4">Follow Us</h2>
-            <a href="https://www.facebook.com/South-Carolina-Human-Service-Providers-Association-134256086634636/" target="_blank" class="smoothscroll pl-0 pr-3"><span class="icon-facebook"></span></a>
-            <a href="https://twitter.com/SC_HSPA?lang=en" target="_blank" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
-            </form>
-          </div>
-        </div>
-        <div class="row pt-5 mt-5 text-center">
-          <div class="col-md-12">
-            <div class="pt-5">
-              <p>
-                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                Copyright &copy;<script>
-                  document.write(new Date().getFullYear());
-                </script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-              </p>
-              <p> Edited by Jonathan Osterud at Thrive Upstate</p>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </footer>
-
-
   </div>
+<!-- End of Content Agencies -->
 
-  <script src="/js/app.js"></script>
-  <script src="/js/jquery-3.4.1.slim.min.js"></script>
-  <script src="/js/popper.min.js"></script>
-  <script src="/js/bootstrap.min.js"></script>
-  <script src="/js/owl.carousel.min.js"></script>
-  <script src="/js/jquery.sticky.js"></script>
-  <script src="/js/jquery.waypoints.min.js"></script>
-  <script src="/js/jquery.fancybox.min.js"></script>
-  <script src="/js/aos.js"></script>
-  <script src="/js/main.js"></script>
+<!-- parallax -->
+<div class="parallax-container">
+  <div class="parallax"><img src="/dbtest/img/bg3.jpg"></div>
+</div>
+
+<!-- slider -->
+<div class="section slider">
+  <ul class="slides">
+    <li>
+      <div class="caption center-align black-text">
+        <h5 class="light black-text text-lighten-3">"I cried during most of the presentation. I want to work harder at making a difference."</h5>
+        <p class="black-text">
+          - 2019 Conference Attendee
+        </p>
+      </div>
+    </li>
+    <li>
+      <div class="caption center-align black-text">
+        <h5 class="light black-text">"Great insight and tools to help organizations improve retention."</h5>
+        <p class="black-text">
+          - 2019 Conference Attendee
+        </p>
+      </div>
+    </li>
+    <li>
+      <div class="caption center-align black-text">
+        <h5 class="light black-text text-lighten-3">"The conference really hit home with the issues we all face."</h5>
+        <p class="black-text">
+          - 2019 Conference Attendee
+        </p>
+      </div>
+    </li>
+
+  </ul>
+</div>
+
+<!-- footer -->
+<footer class="page-footer indigo darken-2">
+  <div class="container">
+    <div class="col s12">
+      <ul class="row">
+        <li><a class="grey-text text-lighten-3 col s1 push-s5 center-align" target="_blank" href="https://www.facebook.com/South-Carolina-Human-Service-Providers-Association-134256086634636/"><i class="fab fa-facebook-f fa-2x"></i></a></li>
+        <li><a class="grey-text text-lighten-3 col s1 push-s5 center-align" target="_blank" href="https://twitter.com/SC_HSPA?lang=en"><i class="fab fa-twitter fa-2x"></i></a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-copyright grey darken-4">
+    <div class="container center-align">&copy; 2020 Jonathan Osterud</div>
+  </div>
+</footer>
 
 
+
+
+
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.8.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.8.1/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.8.1/firebase-analytics.js"></script>
+
+<script>
+  // web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDJ7bCvVFnOxgjcz0HhuFivCJxSDwOp2aI",
+    authDomain: "schspa-dbc19.firebaseapp.com",
+    databaseURL: "https://schspa-dbc19.firebaseio.com",
+    projectId: "schspa-dbc19",
+    storageBucket: "schspa-dbc19.appspot.com",
+    messagingSenderId: "868497249354",
+    appId: "1:868497249354:web:dc28075e92482f8be882b3",
+    measurementId: "G-C39BEH9P91"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+  const db = firebase.firestore();
+</script>
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+<script>
+  $(document).ready(function() {
+    $('.sidenav').sidenav();
+    $('.parallax').parallax();
+    $('.tabs').tabs();
+    $('.tooltipped').tooltip();
+    $('.scrollspy').scrollSpy();
+    $('.slider').slider();
+    $('.collapsible').collapsible();
+  });
+</script>
+<script src="/dbtest/js/ui.js"></script>
+<script src="/dbtest/js/db.js"></script>
+<script src="/dbtest/js/app.js"></script>
 
 </body>
 

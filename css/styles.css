@@ -1,0 +1,144 @@
+
+:root {
+  --primary: #29075A;
+  --secondary: #292929;
+}
+
+.search {
+  padding-top: 3.5px;
+}
+.card-title {
+  font-weight: bold!important;
+  color: var(--primary);
+}
+
+.card-action {
+  color: var(--secondary)!important;
+}
+header{
+  background: url(/dbtest/img/bg1.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 1000px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media screen and (max-width: 670px){
+  header{
+    min-height: 800px;
+  }
+}
+
+
+.nav-bg{
+  background: url(/dbtest/img/bg1.jpg);
+}
+.collapsible-header {
+  color: #fff;
+  background-color: var(--secondary);
+}
+.collapsible {
+  color: var(--primary)!important;
+}
+.a-darken {
+  color: var(--secondary)!important;
+}
+.name {
+  font-size: 20px;
+  font-weight: bold;
+}
+.collection a.collection-item {
+  color: var(--primary)!important;
+}
+a.collection-header {
+  color: var(--secondary);
+}
+.sidenav {
+background-color: #F3F4FF;
+}
+
+.info {
+  color: var(--secondary);
+}
+.eventtitle {
+  font-weight: bold;
+}
+.section{
+      padding-top: 4vw;
+      padding-bottom: 4vw;
+    }
+    .tabs .indicator{
+      background-color: purple;
+    }
+    .tabs .tab a:focus, .tabs .tab a:focus.active{
+      background: transparent;
+    }
+.section-background{
+  padding-top: 4vw;
+  padding-bottom: 4vw;
+  background-color: #F3F4FF;
+  background-size: cover;
+  background-position: center;
+  min-height: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+
+.collapsible-body {
+  background-color: #fff;
+}
+.pad-bot {
+  padding-bottom: 30px;
+}
+
+/* changing icon for collapsible */
+.iconadd{
+  display:inline-block ;
+}
+.iconremove{
+  display:none !important;
+}
+
+li.active .collapsible-header .material-icons.iconadd{
+  display: none;
+}
+
+li.active .collapsible-header .material-icons.iconremove{
+  display: inline-block !important;
+}
+
+li.active {
+  background-color: #fff;
+}
+.slider {
+  margin-bottom: 20px;
+}
+.slides {
+  background-color: #fff!important;
+
+}
+
+
+/* changing icon for collapsible */
+.box-overlay {
+  z-index: 2;
+  background: #fff;
+  padding: 4rem;
+  position: absolute;
+  opacity: 0.9;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  max-width: 500px; }
+  @media (max-width: 991.98px) {
+    .box-overlay {
+      width: 100%; } }
