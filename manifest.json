@@ -1,6 +1,6 @@
 {
   "name": "schspa pwa",
-  "short_name": "schsap app",
+  "short_name": "schspa app",
   "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#292929",
