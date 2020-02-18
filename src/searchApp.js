@@ -32,7 +32,7 @@ search.addWidgets([
   <a href="mailto: {{userEmail}}" class="collection-item email"><i class=" tiny material-icons">email</i> {{userEmail}}</a><br>
   <a href="tel:+1-{{userCellPhone}}" class="collection-item cell"><i class="tiny material-icons">phone_android</i> Cell: {{userCellPhone}}</a><br>
   <a href="tel:+1-{{userOfficePhone}}" class="collection-item cell"><i class="tiny material-icons">local_phone</i> Cell: {{userOfficePhone}}</a><br>
-  <a href="{{agencyAddressLink}}" class="collection-item cell"><i class="tiny material-icons">add_location</i>{{agencyAddress}}</a>
+  <a href="{{agencyAddressLink}}" class="collection-item cell" target="_blank"><i class="tiny material-icons">add_location</i>{{agencyAddress}}</a>
 
 </article>
 `,
