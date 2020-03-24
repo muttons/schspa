@@ -4,6 +4,11 @@
   --secondary: #292929;
 }
 
+.secColor {
+  background-color: darkred;
+  padding: 100px;
+  color: white;
+}
 .search {
   padding-top: 3.5px;
 }
