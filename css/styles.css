@@ -95,6 +95,19 @@ background-color: #F3F4FF;
   background-size: cover;
   }
 
+  .section-backgroundTwo{
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+    background-color: #292929;
+    background-size: cover;
+    background-position: center;
+    min-height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
 
 .collapsible-body {
   background-color: #fff;
