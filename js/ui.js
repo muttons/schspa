@@ -21,6 +21,9 @@ const renderAgency = (data, id) => {
     <ul class="collection">
       <a href="#!" class="collection-header name">${data.userName}</a>
       <a href="#!" class="collection-item title">${data.userTitle}</a>
+      <a href="#!"> 
+      <img src="${data.userImage}">
+      </a>
       <a href="mailto: ${data.userEmail}" class="collection-item email"><i class=" tiny material-icons">email</i> ${data.userEmail}</a>
       <a href="tel:+1-${data.userCellPhone}" class="collection-item cell"><i class="tiny material-icons">phone_android</i> Cell: ${data.userCellPhone}</a>
       <a href="tel:+1-${data.userOfficePhone}" class="collection-item office"><i class="tiny material-icons">local_phone</i> Office: ${data.userOfficePhone}</a>
