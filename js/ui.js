@@ -33,6 +33,7 @@ const renderAgency = (data, id) => {
       <a href="tel:+1-${data.userCellPhone}" class="collection-item  cell"><i class="tiny material-icons">phone_android</i> Cell: ${data.userCellPhone}</a>
       <a href="tel:+1-${data.userOfficePhone}" class="collection-item  office"><i class="tiny material-icons">local_phone</i> Office: ${data.userOfficePhone}</a>
       <a href="${data.agencyAddressLink}" class="collection-item  title" target="_blank"><i class="tiny material-icons">add_location</i> ${data.agencyAddress}</a>
+      <a href="${data.agencyWebsiteLink}" class="collection-item  title" target="_blank"><i class="tiny material-icons">tonality</i> ${data.agencyWebsite}</a>
     </ul>
         </div>
     </div>
