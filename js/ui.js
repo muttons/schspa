@@ -17,18 +17,26 @@ const renderAgency = (data, id) => {
   const html = `
   <li>
   <div class="collapsible-header" data-id="${id}"><i class="material-icons iconadd">add</i><i class="material-icons iconremove">remove</i>${data.agencyName}</div>
-  <div class="collapsible-body">
-    <ul class="collection">
-      <a href="#!" class="collection-header name">${data.userName}</a>
-      <a href="#!" class="collection-item title">${data.userTitle}</a>
-      <a href="#!"> 
-      <img src="${data.userImage}">
-      </a>
+  <div class="collapsible-body center-align center">
+  <div class="row center-align">
+
+    <div class="card">
+      <div class="card-header">
+        <img class="rounded responsive-img" style="margin-top: 30px; margin-bottom: 30px;" src="${data.userImage}">
+      </div>
+      <div class="card-content">
+        <h5>${data.userName}</h5>${data.userTitle}<br><br><div class="divider"></div>
+      </div>
+      <div class="card-content">
+      <ul class="collection">
       <a href="mailto: ${data.userEmail}" class="collection-item email"><i class=" tiny material-icons">email</i> ${data.userEmail}</a>
-      <a href="tel:+1-${data.userCellPhone}" class="collection-item cell"><i class="tiny material-icons">phone_android</i> Cell: ${data.userCellPhone}</a>
-      <a href="tel:+1-${data.userOfficePhone}" class="collection-item office"><i class="tiny material-icons">local_phone</i> Office: ${data.userOfficePhone}</a>
-      <a href="${data.agencyAddressLink}" class="collection-item title" target="_blank"><i class="tiny material-icons">add_location</i> ${data.agencyAddress}</a>
+      <a href="tel:+1-${data.userCellPhone}" class="collection-item  cell"><i class="tiny material-icons">phone_android</i> Cell: ${data.userCellPhone}</a>
+      <a href="tel:+1-${data.userOfficePhone}" class="collection-item  office"><i class="tiny material-icons">local_phone</i> Office: ${data.userOfficePhone}</a>
+      <a href="${data.agencyAddressLink}" class="collection-item  title" target="_blank"><i class="tiny material-icons">add_location</i> ${data.agencyAddress}</a>
     </ul>
+        </div>
+    </div>
+  </div>
   </div>
   </li>
   `;

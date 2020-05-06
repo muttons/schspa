@@ -17,9 +17,26 @@
   color: var(--primary);
 }
 
+.card {
+  width: 350px;
+  margin: 10px auto;
+  box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.7);
+  border-radius: 6px;
+}
+
+.card-header {
+  background-color: lightslategrey;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.card-header img{
+  width: 50%;
+}
 .card-action {
   color: var(--secondary)!important;
 }
+
+
 header{
   background: url(/img/bg1.jpg);
   background-size: cover;
@@ -45,6 +62,10 @@ header{
   color: #fff;
   background-color: var(--secondary);
 }
+
+.collapsible-body {
+  background-color: #121212!important;
+}
 .collapsible {
   color: var(--primary)!important;
 }
@@ -56,11 +77,14 @@ header{
   font-weight: bold;
 }
 .collection a.collection-item {
-  color: var(--primary)!important;
+  color: #fff!important;
+  background-color: var(--secondary);
 }
 a.collection-header {
   color: var(--secondary);
 }
+
+
 .sidenav {
 background-color: #F3F4FF;
 }
@@ -142,6 +166,16 @@ li.active {
   background-color: #fff!important;
 
 }
+
+/* code that rounds the image */
+img.rounded {
+  object-fit: cover;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+
+
 
 
 
