@@ -1,5 +1,5 @@
-const staticCacheName = 'site-static-v16.06';
-const dynamicCacheName = 'site-dynamic-v16.06';
+const staticCacheName = 'site-static-v16.07';
+const dynamicCacheName = 'site-dynamic-v16.07';
 const assets = [
   '',
   '/index.html',
@@ -14,6 +14,10 @@ const assets = [
   'https://use.fontawesome.com/releases/v5.0.13/css/all.css',
   '/pages/fallback.html',
   '/pages/search.html',
+  '/img/bg1.jpg',
+  '/img/bg2.jpg',
+  '/img/bg3.jpg',
+  '/img/bg4.png',
   '/manifest.json'
 ];
 
