@@ -15,10 +15,11 @@
 .card-title {
   font-weight: bold!important;
   color: var(--primary);
+  font-size: medium!important;
 }
 
 .card {
-  width: 350px;
+  width: 400px;
   margin: 10px auto;
   box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.7);
   border-radius: 6px;
