@@ -80,7 +80,11 @@ background-color: #F3F4FF;
     }
     .tabs .tab a:focus, .tabs .tab a:focus.active{
       background: transparent;
+
     }
+  .tabs {
+    background-color: #17141d;
+  }
 .section-background{
   padding-top: 4vw;
   padding-bottom: 4vw;
@@ -136,13 +140,58 @@ li.active {
   background-color: #fff;
 }
 .slider {
-  margin-bottom: 20px;
+  margin-bottom: 0px;
+  height: 200px!important;
 }
 .slides {
-  background-color: #fff!important;
-
+  background-color: black!important;
+  height: 200px!important;
+  margin-top: 0px;
+  padding-top: 0px;
 }
 
+.indicators {
+  display: none;
+}
+
+h5 {
+  color: #17141d;
+}
+
+h6 {
+  color: #17141d;
+}
+
+.card2 {
+  width: 400px;
+  margin: 10px auto;
+  box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.7);
+  border-radius: 6px;
+    position: relative;
+    margin: .5rem 0 1rem 0;
+    background-color: #fff;
+    -webkit-transition: -webkit-box-shadow .25s;
+    transition: -webkit-box-shadow .25s;
+    transition: box-shadow .25s;
+    transition: box-shadow .25s, -webkit-box-shadow .25s;
+    border-radius: 2px;
+
+}
+.card2 .card-image img {
+  display: block;
+  border-radius: 2px 2px 0 0;
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.card-link {
+  display:block;
+  border: none;
+}
 /* code that rounds the image */
 img.rounded {
   object-fit: cover;

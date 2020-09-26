@@ -170,3 +170,7 @@ a {
     background-clip: text;
     border-color: white;
 }
+
+h2 {
+    color: white!important;
+}
