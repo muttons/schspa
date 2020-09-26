@@ -41,7 +41,7 @@ a {
     border-radius: 16px;
     background: #17141d;
     box-shadow: -1rem 0 3rem #000;
-    display: flex;
+    display: flex!important;
     flex-direction: column;
     transition: .2s;
     margin: 0;
@@ -168,9 +168,10 @@ a {
     -webkit-background-clip: text;
     -webkit-box-decoration-break: clone;
     background-clip: text;
-    border-color: white;
+    border-color: transparent;
 }
 
 h2 {
-    color: white!important;
+    color: white;
 }
+
