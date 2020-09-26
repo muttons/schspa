@@ -164,11 +164,10 @@ h6 {
 
 .card2 {
   width: 400px;
-  margin: 10px auto;
   box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.7);
   border-radius: 6px;
     position: relative;
-    margin: .5rem 0 1rem 0;
+    margin: .1rem 1rem 1rem 1rem;
     background-color: #fff;
     -webkit-transition: -webkit-box-shadow .25s;
     transition: -webkit-box-shadow .25s;
