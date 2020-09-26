@@ -84,7 +84,7 @@ a {
 }
 
 .card-header h2:hover {
-    background: linear-gradient(90deg,#ff8a00,#e52e71);
+    background: linear-gradient(90deg,#0a49cf,#09d5fa);
     text-shadow: none;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
@@ -145,6 +145,7 @@ a {
     padding: .5rem 0 1rem;
     line-height: 2;
     margin-bottom: 0;
+    align-self: center;
 }
 
 .tags a {
@@ -161,7 +162,7 @@ a {
 }
 
 .tags a:hover {
-    background: linear-gradient(90deg,#ff8a00,#e52e71);
+    background: linear-gradient(90deg,#0a49cf,#09d5fa);
     text-shadow: none;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
