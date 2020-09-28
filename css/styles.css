@@ -41,9 +41,11 @@ header{
 
 .collapsible-body {
   background-color: #121212!important;
+  
 }
 .collapsible {
   color: var(--primary)!important;
+  width: 100%;
 }
 .a-darken {
   color: var(--secondary)!important;
