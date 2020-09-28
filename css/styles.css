@@ -74,6 +74,8 @@ background-color: #F3F4FF;
 .section{
       padding-top: 4vw;
       padding-bottom: 4vw;
+      display: flex;
+      width: 100%;
     }
     .tabs .indicator{
       background-color: purple;
@@ -113,6 +115,10 @@ background-color: #F3F4FF;
     background-size: cover;
     }
 
+    .section-backgroundThree {
+      background-color: #fff;
+      width: 100%;
+    }
 .collapsible-body {
   background-color: #fff;
 }
@@ -158,24 +164,34 @@ h5 {
   color: #17141d;
 }
 
-h6 {
-  color: #17141d;
-}
+
 
 .card2 {
-  width: 400px;
-  box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.7);
-  border-radius: 6px;
-    position: relative;
-    margin: .1rem 1rem 1rem 1rem;
-    background-color: #fff;
-    -webkit-transition: -webkit-box-shadow .25s;
-    transition: -webkit-box-shadow .25s;
-    transition: box-shadow .25s;
-    transition: box-shadow .25s, -webkit-box-shadow .25s;
-    border-radius: 2px;
+  max-width: 1000px;
+  min-width: 250px;
+  padding: 1rem;
+  border-radius: 2rem;
+  background: #17141d;
+  display: flex!important;
+  flex-direction: column;
+  transition: .2s;
+  margin: 0;
+  scroll-snap-align: start;
+  clear: both;
+  position: relative;
+  margin-bottom: 3rem;
 
 }
+
+h5 {
+  color: #fff;
+}
+
+ h6 {
+   color: #17141d;
+ }
+
+
 .card2 .card-image img {
   display: block;
   border-radius: 2px 2px 0 0;
@@ -185,11 +201,15 @@ h6 {
   top: 0;
   bottom: 0;
   width: 100%;
+  border-radius: 16px;
 }
 
 .card-link {
   display:block;
   border: none;
+  font-size: 1rem!important;
+  color: #fff!important;
+  font-weight: 300!important;
 }
 /* code that rounds the image */
 img.rounded {
