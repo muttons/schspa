@@ -45,7 +45,11 @@ header{
 }
 .collapsible {
   color: var(--primary)!important;
-  width: 100%;
+  width: 100%!important;
+}
+.collapsible.popout {
+  color: var(--primary)!important;
+  width: 100%!important;
 }
 .a-darken {
   color: var(--secondary)!important;
