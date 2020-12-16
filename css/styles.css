@@ -156,7 +156,7 @@ li.active {
   height: 200px!important;
 }
 .slides {
-  background-color: black!important;
+  background-color: white!important;
   height: 200px!important;
   margin-top: 0px;
   padding-top: 0px;
@@ -167,7 +167,7 @@ li.active {
 }
 
 h5 {
-  color: #17141d;
+  color: #17141d!important;
 }
 
 
