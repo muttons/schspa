@@ -1,10 +1,14 @@
-
-
+/* EDIT AS NEEDED FOR CSS THAT CONTROLS THE SEARCH PAGE */
+:root {
+  --primary: #29075A;
+  --secondary: #23232e;
+  --tertiary: #fcba03;
+}
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
     Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-  margin: 0;
+
 }
 
 h5 {
@@ -18,7 +22,7 @@ h5 {
   min-height: 50px;
   padding: 0.5rem 1rem;
   background-image: linear-gradient(284deg, #fedd4e, #fcb43a);
-  color: #292929;
+  color: var(--secondary);
   margin-bottom: 1rem;
 }
 
@@ -53,6 +57,7 @@ h5 {
 
 .search-panel__results {
   flex: 1;
+  padding-top: 20px;
 }
 
 .ais-Highlight-highlighted {
@@ -68,9 +73,6 @@ h5 {
   margin: 2rem auto;
   text-align: center;
 }
-
-
-
 
 h4 {
   color: var(--secondary);
@@ -298,14 +300,10 @@ a.collection-item {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background-color: #fff;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fcfcfd));
-  background-image: linear-gradient(-180deg, #fff, #fcfcfd);
+  background-color:var(--secondary);
   border: 1px solid #d6d6e7;
   border-radius: 3px;
-  -webkit-box-shadow: 0 1px 0 0 rgba(35, 38, 59, 0.05);
-  box-shadow: 0 1px 0 0 rgba(35, 38, 59, 0.05);
-  color: #23263b;
+  
   cursor: pointer;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -317,7 +315,7 @@ a.collection-item {
   -ms-flex-pack: center;
   justify-content: center;
   line-height: 1.25rem;
-  padding: 0 1rem;
+  padding: 0 0.7rem;
   place-items: center;
   text-decoration: none;
   -webkit-user-select: none;
@@ -349,9 +347,9 @@ a.collection-item {
 .ais-GeoSearch-redo:hover,
 .ais-GeoSearch-reset:hover,
 .ais-VoiceSearch-button:hover {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f5f5fa));
-  background-image: linear-gradient(-180deg, #fff, #f5f5fa);
-  border-color: #d6d6e7; }
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#000), to(#000));
+  background-image: linear-gradient(-180deg, #000, #000);
+  border-color: #000; }
 
 .ais-HierarchicalMenu-showMore:focus,
 .ais-Menu-showMore:focus,
@@ -392,9 +390,8 @@ a.collection-item {
 .ais-GeoSearch-redo--disabled,
 .ais-GeoSearch-reset--disabled,
 .ais-VoiceSearch-button:disabled {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f5f5fa));
-  background-image: linear-gradient(-180deg, #fff, #f5f5fa);
-  border-color: #efeff5;
+
+  border-color: var(--secondary);
   -webkit-box-shadow: none;
   box-shadow: none;
   color: #b6b7d5; }
@@ -597,7 +594,7 @@ a.collection-item {
 /**
  * SearchBox
  */
-.ais-SearchBox-form {
+ .ais-SearchBox-form {
   background-color: transparent;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -754,7 +751,7 @@ a.collection-item {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background: #fff;
+  background:var(--secondary);
   -webkit-box-shadow: 0 0 0 1px rgba(35, 38, 59, 0.05), 0 1px 3px 0 rgba(35, 38, 59, 0.15);
   box-shadow: 0 0 0 1px rgba(35, 38, 59, 0.05), 0 1px 3px 0 rgba(35, 38, 59, 0.15);
   display: -webkit-box;
@@ -763,7 +760,10 @@ a.collection-item {
   font-size: 0.875rem;
   font-weight: 400;
   line-height: 1.25rem;
-  padding: 1.5rem; }
+  padding: 1.5rem; 
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
 
 .ais-Hits-item:first-of-type,
 .ais-InfiniteHits-item:first-of-type {
@@ -1165,7 +1165,7 @@ a.collection-item {
 
 .ais-Pagination-item + .ais-Pagination-item > .ais-Pagination-link {
   border-radius: 0;
-  margin-left: -1px; }
+ }
 
 .ais-Pagination-item:last-child > .ais-Pagination-link {
   border-radius: 0 3px 3px 0; }

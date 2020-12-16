@@ -26,13 +26,14 @@ search.addWidgets([
       item: `
 <article>
 
-  <h5>{{agencyName}}</h5>
-  <h6>{{userName}}</h6>
-  <p>{{userTitle}}</p>
-  <a href="mailto: {{userEmail}}" class="collection-item email"><i class=" tiny material-icons">email</i> {{userEmail}}</a><br>
-  <a href="tel:+1-{{userCellPhone}}" class="collection-item cell"><i class="tiny material-icons">phone_android</i> Cell: {{userCellPhone}}</a><br>
-  <a href="tel:+1-{{userOfficePhone}}" class="collection-item cell"><i class="tiny material-icons">local_phone</i> Office: {{userOfficePhone}}</a><br>
-  <a href="{{agencyAddressLink}}" class="collection-item cell" target="_blank"><i class="tiny material-icons">add_location</i>{{agencyAddress}}</a>
+  <h5 class="blue-header">{{agencyName}}</h5><br>
+  <div class="divider"></div><br>
+  <h6 class="white-text">{{userName}}</h6>
+  <p class="white-text">{{userTitle}}</p>
+  <a href="mailto: {{userEmail}}" class="email white-text"><i class="material-icons vertical-align-middle">email</i> {{userEmail}}</a><br>
+  <a href="tel:+1-{{userCellPhone}}" class=" cell white-text"><i class="vertical-align-middle material-icons">phone_android</i> Cell: {{userCellPhone}}</a><br>
+  <a href="tel:+1-{{userOfficePhone}}" class=" cell white-text"><i class="vertical-align-middle material-icons">local_phone</i> Office: {{userOfficePhone}}</a><br>
+  <a href="{{agencyAddressLink}}" class=" cell white-text" target="_blank"><i class="vertical-align-middle material-icons">add_location</i>{{agencyAddress}}</a>
 
 </article>
 `,
