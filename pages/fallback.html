@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <!-- my CSS -->
+  <link type="text/css" href="/css/styles.css" rel="stylesheet">
+  <!-- Service Worker Manifest -->
+  <link rel="manifest" href="/manifest.json">
+  <!-- ios support -->
+  <link rel="icon" href="/img/icons/favicon.ico" type="image/x-icon">
+  <!-- ios support -->
+  <link rel="apple-touch-icon" href="/img/icons/schspa-57x57.png">
+  <link rel="apple-touch-icon" href="/img/icons/schspa-60x60.png">
+  <link rel="apple-touch-icon" href="/img/icons/schspa-72x72.png">
+  <link rel="apple-touch-icon" href="/img/icons/schspa-76x76.png">
+  <link rel="apple-touch-icon" href="/img/icons/schspa-96x96.png">
+  <link rel="apple-touch-icon" href="/img/icons/schspa-114x114.png">
+  <link rel="apple-touch-icon" href="/img/icons/schspa-120x120.png">
+  <link rel="apple-touch-icon" href="/img/icons/schspa-144x144.png">
+  <link rel="apple-touch-icon" href="/img/icons/schspa-150x150.png">
+  <link rel="apple-touch-icon" href="/img/icons/schspa-180x180.png">
+  <link rel="apple-touch-icon" href="/img/icons/schspa-192x192.png">
+  <link rel="apple-touch-icon" href="/img/icons/schspa-512x512.png">
+  <meta name="apple-mobile-web-app-status-bar" content="#292929">
+  <meta name="theme-color" content="#292929">
+  <title>schspa</title>
+</head>
+
+<body>
+
+
+  <!-- nav -->
+  <header>
+    <nav class="nav wrapper transparent">
+      <div class="container text-white">
+        <a href="/index.html" class="brand-logo">schspa</a>
+        <a href="#" class="sidenav-trigger" data-target="mobile-links">
+          <i class="material-icons">menu</i>
+        </a>
+        <a href="/pages/search.html"><i class="material-icons right search">search</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="/pages/event-calendar.html">Event Calendar</a></li>
+          <li><a href="/pages/agency-directory.html">Agency Directory</a></li>
+
+        </ul>
+
+      </div>
+    </nav>
+  </header>
+
+  <!-- side nav -->
+  <ul class="sidenav grey lighten-2" id="mobile-links">
+    <li><a href="/pages/event-calendar.html">Event Calendar</a></li>
+    <li><a href="/pages/agency-directory.html">Agency Directory</a></li>
+
+  </ul>
+
+
+  <!-- box over mian image-->
+  <div class="box-overlay">
+      <h5 class="mb-3 text-black title center">Oops! This page can not be accessed while offline</h5>
+      <div class="center">
+        <p>back to main page</p>
+        <a href="/index.html" class="btn-floating purple darken-4 pulse">
+          <i class="material-icons">expand_more</i>
+        </a>
+      </div>
+  </div>
+
+  <!-- footer -->
+  <footer class="page-footer indigo darken-2">
+    <div class="container">
+      <div class="col s12">
+        <ul class="row">
+          <li><a class="grey-text text-lighten-3 col s1 push-s5 center-align" target="_blank" href="https://www.facebook.com/South-Carolina-Human-Service-Providers-Association-134256086634636/"><i class="fab fa-facebook-f fa-2x"></i></a></li>
+          <li><a class="grey-text text-lighten-3 col s1 push-s5 center-align" target="_blank" href="https://twitter.com/SC_HSPA?lang=en"><i class="fab fa-twitter fa-2x"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-copyright grey darken-4">
+      <div class="container center-align">&copy; 2020 Jonathan Osterud</div>
+    </div>
+  </footer>
+
+
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('.sidenav').sidenav();
+      $('.parallax').parallax();
+      $('.tabs').tabs();
+      $('.tooltipped').tooltip();
+      $('.scrollspy').scrollSpy();
+      $('.slider').slider();
+      $('.collapsible').collapsible();
+    });
+  </script>
+
+
+
+
+
+
+
+</body>
+
+</html>
