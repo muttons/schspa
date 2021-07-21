@@ -85,6 +85,8 @@ background-color: #F3F4FF;
     }
     .tabs .indicator{
       background-color: #0587d6;
+      height: 5px!important;
+
     }
     .tabs .tab a:focus, .tabs .tab a:focus.active{
       background: transparent;
