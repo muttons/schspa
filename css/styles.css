@@ -30,9 +30,7 @@ header{
   }
 }
 
-.nav {
-  background-color: #0587d6;
-}
+
 .nav-bg{
   background: url(/img/bg4.png);
 }
@@ -176,7 +174,9 @@ h5 {
   color: #0587d6!important;
 }
 
-
+.blue-background {
+  background-color: #0587d6!important;
+}
 .card2 {
   max-width: 1000px;
   min-width: 250px;
