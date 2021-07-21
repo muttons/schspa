@@ -84,7 +84,7 @@ background-color: #F3F4FF;
       width: 100%;
     }
     .tabs .indicator{
-      background-color: purple;
+      background-color: #0587d6;
     }
     .tabs .tab a:focus, .tabs .tab a:focus.active{
       background: transparent;
@@ -176,6 +176,10 @@ h5 {
 
 .blue-background {
   background-color: #0587d6!important;
+}
+
+.blue-text {
+  color: #0587d6!important;
 }
 .card2 {
   max-width: 1000px;
