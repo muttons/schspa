@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 const staticCacheName = 'site-static-v16.45';
 const dynamicCacheName = 'site-dynamic-v16.45';
+=======
+const staticCacheName = 'site-static-v16.40';
+const dynamicCacheName = 'site-dynamic-v16.40';
+>>>>>>> parent of 300618c (parallax changes.)
 const assets = [
   '',
   '/index.html',
