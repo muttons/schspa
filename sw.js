@@ -1,25 +1,5 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-const staticCacheName = 'site-static-v16.45';
-const dynamicCacheName = 'site-dynamic-v16.45';
-=======
-const staticCacheName = 'site-static-v16.40';
-const dynamicCacheName = 'site-dynamic-v16.40';
->>>>>>> parent of 300618c (parallax changes.)
-=======
-const staticCacheName = 'site-static-v16.40';
-const dynamicCacheName = 'site-dynamic-v16.40';
->>>>>>> parent of 300618c (parallax changes.)
-=======
-const staticCacheName = 'site-static-v16.43';
-const dynamicCacheName = 'site-dynamic-v16.43';
->>>>>>> parent of 4e29c9c (more parallax changes)
-=======
-const staticCacheName = 'site-static-v16.41';
-const dynamicCacheName = 'site-dynamic-v16.41';
->>>>>>> parent of fcbbd3d (parallax rework)
+const staticCacheName = 'site-static-v16.46';
+const dynamicCacheName = 'site-dynamic-v16.46';
 const assets = [
   '',
   '/index.html',
