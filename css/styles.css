@@ -13,62 +13,17 @@
   padding-top: 3.5px;
 }
 
-
-.parallax1 {
+header{
   background: url(/img/bg1.jpg);
   background-size: cover;
   background-position: center;
   min-height: 1000px;
+  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-.parallax2 {
-  background: url(/img/bg2.jpg);
-  background-size: cover;
-  background-position: center;
-  min-height: 1000px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.parallax3 {
-  background: url(/img/bg3.jpg);
-  background-size: cover;
-  background-position: center;
-  min-height: 1000px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.parallax4 {
-  background: url(/img/bg4.jpg);
-  background-size: cover;
-  background-position: center;
-  min-height: 1000px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.parallax5 {
-  background: url(/img/bg5.jpg);
-  background-size: cover;
-  background-position: center;
-  min-height: 1000px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 @media screen and (max-width: 670px){
   header{
     min-height: 800px;
