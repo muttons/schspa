@@ -40,7 +40,7 @@ a {
     padding: 1.5rem;
     border-radius: 16px;
     background: #17141d;
-    box-shadow: -1rem 0 0 0rem #0587d6;
+    box-shadow: -0.25rem 0 0 0rem #0587d6;
     display: flex!important;
     flex-direction: column;
     transition: .2s;
