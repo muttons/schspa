@@ -16,7 +16,14 @@ a {
     display: flex;
     padding: 3rem;
     overflow-x: scroll;
+    justify-content: center;
 }
+@media screen and (max-width: 670px){
+    .card-list{
+      justify-content: start;
+    }
+    
+  }
 
 .card-list::-webkit-scrollbar {
     width: 10px;
@@ -187,9 +194,12 @@ h2 {
     height: 550px;
     width: 1000px;
     top: 60px;
-    left: calc(50% - 500px);
     display: flex;
+    justify-content: center;
+    align-items: center;
+
   }
+
   
   .SponsorCard {
     display: flex;
@@ -202,8 +212,6 @@ h2 {
     transition: 0.4s ease-out;
     position: relative;
     left: 0px;
-    margin-left: 10%;
-    margin-bottom: 50px;
     box-shadow: -0.25rem 0 0 0rem #0587d6;
   }
   
