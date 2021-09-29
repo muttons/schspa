@@ -24,5 +24,8 @@
     "InstantSearch",
     "Vanilla",
     "instantsearch.js"
-  ]
+  ],
+  "dependencies": {
+    "@glidejs/glide": "^3.4.1"
+  }
 }
