@@ -184,8 +184,7 @@ h2 {
 
 
   .SponsorContainer {
-    position: absolute;
-    height: 300px;
+    height: 550px;
     width: 1000px;
     top: 60px;
     left: calc(50% - 500px);
@@ -194,8 +193,8 @@ h2 {
   
   .SponsorCard {
     display: flex;
-    height: 300px;
-    width: 400px;
+    height: 400px;
+    width: 300px;
     background-color: #17141d;
     border-radius: 10px;
     box-shadow: -1rem 0 3rem #000;
@@ -203,14 +202,17 @@ h2 {
     transition: 0.4s ease-out;
     position: relative;
     left: 0px;
+    margin-left: 10%;
+    margin-bottom: 50px;
+    box-shadow: -0.25rem 0 0 0rem #0587d6;
   }
   
   .SponsorCard:not(:first-child) {
-      margin-left: -50px;
+      margin-left: 10px;
   }
   
   .SponsorCard:hover {
-    transform: translateY(-20px);
+    transform: translateY(-30px);
     transition: 0.4s ease-out;
   }
   
@@ -222,10 +224,12 @@ h2 {
   
   .SponsorTitle {
     color: white;
-    font-weight: 300;
+    font-weight: 200;
     position: absolute;
-    left: 20px;
     top: 15px;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   
   .bar {
@@ -261,7 +265,7 @@ h2 {
   .circle {
     position: absolute;
     top: 150px;
-    left: calc(50% - 60px);
+    left: calc(50% - 115px);
   }
   
   .stroke {
