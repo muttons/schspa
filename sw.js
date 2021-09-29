@@ -1,5 +1,5 @@
-const staticCacheName = 'site-static-v16.57';
-const dynamicCacheName = 'site-dynamic-v16.57';
+const staticCacheName = 'site-static-v16.59';
+const dynamicCacheName = 'site-dynamic-v16.59';
 const assets = [
   '',
   '/index.html',

@@ -213,6 +213,7 @@ h2 {
     position: relative;
     left: 0px;
     box-shadow: -0.25rem 0 0 0rem #0587d6;
+    
   }
   
   .SponsorCard:not(:first-child) {
@@ -271,7 +272,7 @@ h2 {
   }
   
   .circle {
-    position: absolute;
+    position: relative;
     top: 150px;
     left: calc(50% - 115px);
   }
