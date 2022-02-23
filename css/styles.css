@@ -80,10 +80,11 @@ background-color: #F3F4FF;
   font-weight: bold;
 }
 .section{
-      padding-top: 4vw;
-      padding-bottom: 4vw;
+      padding-top: 2vw;
+      padding-bottom: 7vw;
       display: flex;
       width: 100%;
+      
     }
     .tabs .indicator{
       background-color: #0587d6;
@@ -126,7 +127,7 @@ background-color: #F3F4FF;
     }
 
     .section-backgroundThree {
-      background-color: #fff;
+      background-color: black;
       width: 100%;
     }
 .collapsible-body {
@@ -381,4 +382,8 @@ img.rounded {
 }
 .slick-arrow.slick-hidden {
   display: none;
+}
+
+.container {
+  max-width: 100%;
 }

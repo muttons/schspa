@@ -12,35 +12,35 @@ a {
     text-decoration: none;
 }
 
-.card-list {
+.cardTwo-list {
     display: flex;
     padding: 3rem;
     overflow-x: scroll;
     justify-content: center;
 }
 @media screen and (max-width: 670px){
-    .card-list{
+    .cardTwo-list{
       justify-content: start;
     }
     
   }
 
-.card-list::-webkit-scrollbar {
+.cardTwo-list::-webkit-scrollbar {
     width: 10px;
     height: 10px;
 }
-.card-list::-webkit-scrollbar-thumb {
+.cardTwo-list::-webkit-scrollbar-thumb {
     background: #201c29;
     border-radius: 10px;
     box-shadow: inset 2px 2px 2px hsla(0,0%,100%,.25), inset -2px -2px 2px rgba(0,0,0,.25);
 }
 
-.card-list::-webkit-scrollbar-track {
+.cardTwo-list::-webkit-scrollbar-track {
     background: linear-gradient(90deg,#201c29,#201c29 1px,#17141d 0,#17141d);
 }
 
 
-.card {
+.cardTwo {
     height: 350px;
     width: 400px;
     min-width: 250px;
@@ -57,30 +57,30 @@ a {
     position: relative;
 }
 
-.card:focus-within~.card, .card:hover~.card {
+.cardTwo:focus-within~.cardTwo, .cardTwo:hover~.cardTwo {
     transform: translateX(130px);
 }
 
-.card:hover {
+.cardTwo:hover {
     transform: translateY(-1rem);
 }
 
-.card:not(:first-child) {
+.cardTwo:not(:first-child) {
     margin-left: -130px;
 }
 
 
-.card-header {
+.cardTwo-header {
     margin-bottom: auto;
 }
 
-.card-header p {
+.cardTwo-header p {
     font-size: 14px;
     margin: 0 0 1rem;
     color: #7a7a8c;
 }
 
-.card-header h2 {
+.cardTwo-header h2 {
     font-size: 20px;
     margin: .25rem 0 auto;
     text-decoration: none;
@@ -90,7 +90,7 @@ a {
     cursor: pointer;
 }
 
-.card-header h2:hover {
+.cardTwo-header h2:hover {
     background: linear-gradient(90deg,#0a49cf,#09d5fa);
     text-shadow: none;
     -webkit-text-fill-color: transparent;
@@ -98,7 +98,7 @@ a {
     background-clip: text;
 }
 
-.card-author {
+.cardTwo-author {
     margin: 3rem 0 0;
     display: grid;
     grid-template-columns: 75px 1fr;
@@ -187,7 +187,7 @@ h2 {
 
 
 
-/*Sponsor Card CSS*/
+/*Sponsor cardTwo CSS*/
 
 
   .SponsorContainer {
@@ -201,7 +201,7 @@ h2 {
   }
 
   
-  .SponsorCard {
+  .SponsorcardTwo {
     display: flex;
     height: 400px;
     width: 300px;
@@ -216,16 +216,16 @@ h2 {
     
   }
   
-  .SponsorCard:not(:first-child) {
+  .SponsorcardTwo:not(:first-child) {
       margin-left: 10px;
   }
   
-  .SponsorCard:hover {
+  .SponsorcardTwo:hover {
     transform: translateY(-30px);
     transition: 0.4s ease-out;
   }
   
-  .SponsorCard:hover ~ .SponsorCard {
+  .SponsorcardTwo:hover ~ .SponsorcardTwo {
     position: relative;
     left: 50px;
     transition: 0.4s ease-out;
@@ -266,7 +266,7 @@ h2 {
     transition: 0.6s ease-out;
   }
   
-  .SponsorCard:hover .filledbar {
+  .SponsorcardTwo:hover .filledbar {
     width: 120px;
     transition: 0.4s ease-out;
   }
@@ -289,7 +289,7 @@ h2 {
     stroke-width: 2px;
   }
   
-  .SponsorCard:hover .stroke {
+  .SponsorcardTwo:hover .stroke {
     stroke-dashoffset: 100;
     transition: 0.6s ease-out;
   }
