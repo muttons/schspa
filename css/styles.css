@@ -86,6 +86,15 @@ background-color: #F3F4FF;
       width: 100%;
       
     }
+
+    .section-2{
+      padding-top: 2vw;
+      padding-bottom: 7vw;
+      display: flex;
+      width: 100%;
+      background: url(/img/vecteezy_bg1.jpg);
+      
+    }
     .tabs .indicator{
       background-color: #0587d6;
       height: 5px!important;
