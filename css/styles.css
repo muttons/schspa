@@ -68,7 +68,15 @@ a.collection-header {
   color: var(--secondary);
 }
 
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
 
+footer{
+  margin-top: auto;
+}
 .sidenav {
 background-color: #F3F4FF;
 }
@@ -84,6 +92,7 @@ background-color: #F3F4FF;
       padding-bottom: 7vw;
       display: flex;
       width: 100%;
+      margin-top: auto;
       
     }
 
@@ -168,6 +177,7 @@ li.active {
 .slider {
   margin-bottom: 0px;
   height: 200px!important;
+  
 }
 .slides {
   background-color: white!important;
