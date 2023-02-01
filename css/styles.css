@@ -233,6 +233,10 @@ h5 {
   border-radius: 16px;
 }
 
+.materialboxed{ display: inline-block; }
+.center-align .materialboxed {
+  margin: 0 auto; position: relative !important;
+}
 .card-link {
   display:block;
   border: none;
