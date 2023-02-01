@@ -1,5 +1,5 @@
-const staticCacheName = 'site-static-v16.85';
-const dynamicCacheName = 'site-dynamic-v16.85';
+const staticCacheName = 'site-static-v16.87';
+const dynamicCacheName = 'site-dynamic-v16.87';
 const assets = [
   '',
   '/index.html',
@@ -13,6 +13,13 @@ const assets = [
   'https://fonts.gstatic.com/s/materialicons/v47/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2',
   'https://use.fontawesome.com/releases/v5.0.13/css/all.css',
   '/pages/fallback.html',
+  '/pages/event-calendar.html',
+  '/pages/event-conventionMap.html',
+  '/pages/event-conferenceCommittee.html',
+  '/pages/event-resources.html',
+  '/pages/event-monday.html',
+  '/pages/event-tuesday.html',
+  '/pages/event-wednesday.html',
   '/pages/search.html',
   '/img/bg1.jpg',
   '/img/bg2.jpg',
