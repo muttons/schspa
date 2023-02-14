@@ -1,5 +1,5 @@
-const staticCacheName = 'site-static-v16.92';
-const dynamicCacheName = 'site-dynamic-v16.92';
+const staticCacheName = 'site-static-v16.93';
+const dynamicCacheName = 'site-dynamic-v16.93';
 const assets = [
   '',
   '/index.html',
@@ -16,7 +16,7 @@ const assets = [
   '/pages/event-calendar.html',
   '/pages/event-conventionMap.html',
   '/pages/event-conferenceCommittee.html',
-  '/pages/event-resources.html',
+  '/pages/event-2023-Conference.html',
   '/pages/event-monday.html',
   '/pages/event-tuesday.html',
   '/pages/event-wednesday.html',
