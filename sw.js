@@ -1,5 +1,5 @@
-const staticCacheName = 'site-static-v16.93';
-const dynamicCacheName = 'site-dynamic-v16.93';
+const staticCacheName = 'site-static-v16.94';
+const dynamicCacheName = 'site-dynamic-v16.94';
 const assets = [
   '',
   '/index.html',
@@ -20,6 +20,7 @@ const assets = [
   '/pages/event-monday.html',
   '/pages/event-tuesday.html',
   '/pages/event-wednesday.html',
+  '/pages/event-speakerBios.html',
   '/pages/search.html',
   '/img/bg1.jpg',
   '/img/bg2.jpg',
