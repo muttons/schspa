@@ -231,6 +231,16 @@ h5 {
  }
 
 
+
+ hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 5px solid black;
+  margin: 1em 0;
+  padding: 0;
+}
+
 .card2 .card-image img {
   display: block;
   border-radius: 2px 2px 0 0;
