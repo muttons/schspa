@@ -14,7 +14,7 @@
 }
 
 header{
-  background: url(/img/futurebg4.jpg);
+  background: url(/img/futurebg4.webp);
   background-size: cover;
   background-position: center;
   min-height: 1000px;
@@ -34,7 +34,7 @@ header{
 
 
 .nav-bg{
-  background: url(/img/bg4.png);
+  background: url(/img/bg4.webp);
 }
 .collapsible-header {
   color: #fff;
@@ -101,7 +101,7 @@ background-color: #F3F4FF;
       padding-bottom: 7vw;
       display: flex;
       width: 100%;
-      background: url(/img/vecteezy_bg1.jpg);
+      background: url(/img/vecteezy_bg1.webp);
       
     }
     .tabs .indicator{

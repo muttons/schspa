@@ -1,5 +1,5 @@
-const staticCacheName = 'site-static-v17.03';
-const dynamicCacheName = 'site-dynamic-v17.03';
+const staticCacheName = 'site-static-v17.04';
+const dynamicCacheName = 'site-dynamic-v17.04';
 const assets = [
   '',
   '/index.html',
@@ -22,10 +22,10 @@ const assets = [
   '/pages/event-wednesday.html',
   '/pages/event-speakerBios.html',
   '/pages/search.html',
-  '/img/bg1.jpg',
-  '/img/bg2.jpg',
-  '/img/bg3.jpg',
-  '/img/bg4.png',
+  '/img/bg1.webp',
+  '/img/bg2.webp',
+  '/img/bg3.webp',
+  '/img/bg4.webp',
   '/manifest.json'
 ];
 
