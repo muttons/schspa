@@ -1,5 +1,5 @@
-const staticCacheName = 'site-static-v17.04';
-const dynamicCacheName = 'site-dynamic-v17.04';
+const staticCacheName = 'site-static-v17.05';
+const dynamicCacheName = 'site-dynamic-v17.05';
 const assets = [
   '',
   '/index.html',
@@ -26,7 +26,32 @@ const assets = [
   '/img/bg2.webp',
   '/img/bg3.webp',
   '/img/bg4.webp',
-  '/manifest.json'
+  '/img/futurebg2.webp',
+  '/img/futurebg4.webp',
+  '/img/futurebackground3.webp',
+  '/img/conferenceLogo.webp',
+  '/img/ec.webp',
+  '/img/adirectory.webp',
+  '/img/Atech.webp',
+  '/img/awm.webp',
+  '/img/BamburgCountyDSNB.webp',
+  '/img/Brown&Brown.webp',
+  '/img/ConventionMap-1.webp',
+  '/img/curryinsurance.webp',
+  '/img/eBridge.webp',
+  '/img/futurebg1.webp',
+  '/img/HodgeSystems.webp',
+  '/img/MarshMcLennanAgency.webp',
+  '/img/PalmettoBusSales.webp',
+  '/img/PalmettoRX.webp',
+  '/img/SelectLabs.webp',
+  '/img/StationMD.webp',
+  '/img/Therap.webp',
+  '/img/therap2.webp',
+  '/img/truelink.webp',
+  '/img/vecteezy_bg1.webp',
+  '/manifest.json',
+
 ];
 
 // cache size limit function
