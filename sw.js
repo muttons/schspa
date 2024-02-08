@@ -1,5 +1,5 @@
-const staticCacheName = 'site-static-v18.13';
-const dynamicCacheName = 'site-dynamic-v18.13';
+const staticCacheName = 'site-static-v18.14';
+const dynamicCacheName = 'site-dynamic-v18.14';
 const assets = [
   '',
   '/index.html',
@@ -50,6 +50,7 @@ const assets = [
   '/img/therap2.webp',
   '/img/truelink.webp',
   '/img/vecteezy_bg1.webp',
+  '/img/tropical_bg1.webp',
   '/manifest.json',
 
 ];
