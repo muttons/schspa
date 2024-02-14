@@ -16,7 +16,7 @@ const assets = [
   '/pages/event-calendar.html',
   '/pages/event-conventionMap.html',
   '/pages/event-conferenceCommittee.html',
-  '/pages/event-2023-Conference.html',
+  '/pages/event-2024-Conference.html',
   '/pages/event-monday.html',
   '/pages/event-tuesday.html',
   '/pages/event-wednesday.html',
